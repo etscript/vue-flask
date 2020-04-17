@@ -134,7 +134,7 @@ def get_article_classify():
   ]
     return ResMsg(data=classify).data
 
-@bp.route('/article/', methods=['POST'])
+@bp.route('/article', methods=['POST'])
 # @token_auth.login_required
 # @permission_required(Permission.WRITE)
 def get_article():
@@ -195,9 +195,9 @@ def get_articles():
     haowen = Haowen.query.order_by(Haowen.top.desc(),Haowen.timestamp.desc())
     if not data.get('all'):
         data = Haowen.to_web_dict(haowen.filter(Haowen.down==False), \
-            page, per_page,'article.get_articles')
+            page, per_page,'api.get_articles')
     else:
-        data = Haowen.to_web_dict(haowen, page, per_page,'article.get_articles')
+        data = Haowen.to_web_dict(haowen, page, per_page,'api.get_articles')
     
     ret = {
             "current_page": data["_meta"]["page"],
