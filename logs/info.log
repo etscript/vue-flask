@@ -1,0 +1,2079 @@
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+127.0.0.1 - - [29/Jul/2019 17:38:34] "PUT /bp_api_test/logs HTTP/1.1" 404 -
+127.0.0.1 - - [29/Jul/2019 17:38:40] "PUT /api/logs HTTP/1.1" 404 -
+127.0.0.1 - - [29/Jul/2019 17:38:45] "PUT /logs HTTP/1.1" 405 -
+127.0.0.1 - - [29/Jul/2019 17:38:55] "PUT /bp_api_test/logs HTTP/1.1" 404 -
+127.0.0.1 - - [29/Jul/2019 17:39:12] "PUT /test/logs HTTP/1.1" 404 -
+127.0.0.1 - - [29/Jul/2019 17:39:46] "PUT /test/wechat_verify HTTP/1.1" 404 -
+127.0.0.1 - - [29/Jul/2019 17:39:50] "PUT /wechat_verify HTTP/1.1" 405 -
+127.0.0.1 - - [29/Jul/2019 17:40:02] "PUT /api/test/wechat_verify HTTP/1.1" 404 -
+127.0.0.1 - - [29/Jul/2019 17:40:15] "PUT /wechat_verify HTTP/1.1" 405 -
+127.0.0.1 - - [29/Jul/2019 17:40:22] "GET /wechat_verify HTTP/1.1" 308 -
+127.0.0.1 - - [29/Jul/2019 17:40:22] "GET /wechat_verify/ HTTP/1.1" 200 -
+this is info
+this is warning
+this is error
+this is critical
+127.0.0.1 - - [29/Jul/2019 17:40:36] "GET /logs HTTP/1.1" 200 -
+this is info
+this is warning
+this is error
+this is critical
+127.0.0.1 - - [29/Jul/2019 17:41:43] "GET /logs HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+this is info
+this is warning
+this is error
+this is critical
+127.0.0.1 - - [29/Jul/2019 17:42:47] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jul/2019 17:42:54] "GET /test/logs HTTP/1.1" 404 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+127.0.0.1 - - [29/Jul/2019 17:43:03] "GET /test/logs HTTP/1.1" 404 -
+this is info
+this is warning
+this is error
+this is critical
+127.0.0.1 - - [29/Jul/2019 17:43:08] "GET /logs HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+127.0.0.1 - - [29/Jul/2019 17:43:24] "GET /logs HTTP/1.1" 404 -
+this is info
+this is warning
+this is error
+this is critical
+127.0.0.1 - - [29/Jul/2019 17:43:30] "GET /api/logs HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+127.0.0.1 - - [29/Jul/2019 17:49:03] "GET /api/logs HTTP/1.1" 404 -
+127.0.0.1 - - [29/Jul/2019 17:49:15] "GET /api/wechat_verify HTTP/1.1" 308 -
+127.0.0.1 - - [29/Jul/2019 17:49:15] "GET /api/wechat_verify/ HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+127.0.0.1 - - [29/Jul/2019 18:30:11] "GET /api/wechat_verify HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jul/2019 18:30:11] "GET /api/wechat_verify HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+Fetching access token
+127.0.0.1 - - [29/Jul/2019 18:33:02] "GET /api/get_qrcode HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+127.0.0.1 - - [29/Jul/2019 18:33:23] "GET /api/get_qrcode HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+127.0.0.1 - - [29/Jul/2019 18:35:14] "GET /api/get_qrcode HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-restful-test/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-340-360
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 18:47:34] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [29/Jul/2019 18:47:37] "GET /api/check_login?wechat_flag=2019072717375513 HTTP/1.0" 308 -
+127.0.0.1 - - [29/Jul/2019 18:47:37] "GET /api/check_login/?wechat_flag=2019072717375513 HTTP/1.0" 500 -
+127.0.0.1 - - [29/Jul/2019 18:47:37] "GET /api/check_login/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 18:47:37] "GET /api/check_login/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 18:47:37] "GET /api/check_login/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 18:47:38] "GET /api/check_login/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 18:47:38] "GET /api/check_login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 18:47:38] "GET /api/check_login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+Fetching access token
+127.0.0.1 - - [29/Jul/2019 18:48:01] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 18:48:52] "POST /api/wechat_verify/?signature=b56157c008104d38c88a42bcd5e3aa7917300e70&timestamp=1564397332&nonce=1017021376&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 18:50:16] "POST /api/wechat_verify/?signature=32b64321e4f716ca37e3ac5da7842bed49be9b1e&timestamp=1564397416&nonce=962910459&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [29/Jul/2019 18:50:29] "POST /api/wechat_verify/?signature=b7a3ea81a2a6d4eab4c858fa5902a44b5215ff16&timestamp=1564397429&nonce=495830820&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 18:57:10] "POST /api/wechat_verify/?signature=26c787666a21c161174192a68d654a2899eff52d&timestamp=1564397830&nonce=1138867918&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [29/Jul/2019 18:57:17] "POST /api/wechat_verify/?signature=97ad9a4aeedf736bed75f49e78b5c431c5ec1d20&timestamp=1564397837&nonce=1118608628&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [29/Jul/2019 18:57:37] "POST /api/wechat_verify/?signature=9b4e623d835d7facfd17cb931990d0af8c804e23&timestamp=1564397857&nonce=596322798&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [29/Jul/2019 18:58:53] "POST /api/wechat_verify/?signature=d19466432a3cb0c7ded22d23100b158b5271405d&timestamp=1564397933&nonce=1177519255&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 19:03:55] "POST /api/wechat_verify/?signature=3a8ee9e45035eb764c719f68ba7c62a3a1c75a88&timestamp=1564398235&nonce=909608716&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 19:06:23] "POST /api/wechat_verify/?signature=69c18b2ba0b20c72c2442852a332b634ff1d78a9&timestamp=1564398383&nonce=1205897467&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [29/Jul/2019 19:06:31] "POST /api/wechat_verify/?signature=d287ee1c88d65a60d5b1ad9ffa4dff2e8acd1751&timestamp=1564398391&nonce=1709535296&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 19:08:40] "POST /api/wechat_verify/?signature=8c996ce784f1f0a589aa2fad86544d60b1df1458&timestamp=1564398520&nonce=907856194&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 19:10:14] "POST /api/wechat_verify/?signature=adfa16eb7e11ba384287c27193619dd931b4f134&timestamp=1564398614&nonce=1914320493&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 19:10:18] "POST /api/wechat_verify/?signature=e65bb5f8e46a064af7a98efe06ba90826a7d1ee7&timestamp=1564398618&nonce=2027160295&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 19:30:45] "POST /api/wechat_verify/?signature=a433e041d2a1c0d177338d24d208e2b6c9bdbfae&timestamp=1564399845&nonce=712175693&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 19:30:53] "POST /api/wechat_verify/?signature=bae56105cec4588e3795696021140f0aaf2bc6c7&timestamp=1564399853&nonce=1287633546&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 19:31:38] "POST /api/wechat_verify/?signature=ecc9325f866517510f3e20429b6e41ca98368265&timestamp=1564399898&nonce=1319479550&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 19:31:51] "POST /api/wechat_verify/?signature=bf7cbdf2937c64c7eab56bbca524083211c91143&timestamp=1564399911&nonce=371389817&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 19:31:56] "POST /api/wechat_verify/?signature=89f8367ccd173568e6b7148d04d8000c76832dd2&timestamp=1564399916&nonce=1343892985&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 19:32:09] "POST /api/wechat_verify/?signature=6f8cb9727d10eccbe9532b685c0e06a65a1fe2f1&timestamp=1564399929&nonce=826079054&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 19:35:11] "POST /api/wechat_verify/?signature=4e7c9a637831f6088dcc308297c97cb87e42dd97&timestamp=1564400111&nonce=407655808&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 20:25:13] "GET /404/search_children.js HTTP/1.0" 404 -
+127.0.0.1 - - [29/Jul/2019 20:25:55] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [29/Jul/2019 20:36:21] "GET / HTTP/1.0" 404 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+Fetching access token
+127.0.0.1 - - [29/Jul/2019 23:48:30] "POST /api/wechat_verify/?signature=aee81cb2450ff30c39d282b80292d2c70dee4737&timestamp=1564415309&nonce=1010114870&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [29/Jul/2019 23:49:07] "GET / HTTP/1.0" 404 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 23:49:48] "POST /api/wechat_verify/?signature=1b0e476e60dcd140c45ec88115d544594338839e&timestamp=1564415388&nonce=2085146208&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 23:49:55] "POST /api/wechat_verify/?signature=f4fded7137c2310c2f95b77db77f69990df64b0b&timestamp=1564415395&nonce=440156862&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 23:53:27] "POST /api/wechat_verify/?signature=a9b31050a03aaab0ddcc7af83b447024a8be3f37&timestamp=1564415607&nonce=587228188&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 23:53:32] "POST /api/wechat_verify/?signature=a55c27f5f0eae0f9f358448071b2645ebfd8cbb8&timestamp=1564415612&nonce=1310247502&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 23:54:46] "POST /api/wechat_verify/?signature=d1a6418b3fef1fb452cb379a752e8d782d4b1ac8&timestamp=1564415686&nonce=1536517745&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 23:54:52] "POST /api/wechat_verify/?signature=24d343ca45e153f9680012c622d78b9cb77c2754&timestamp=1564415691&nonce=1437050694&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/models/model.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 23:57:47] "POST /api/wechat_verify/?signature=465a129aa8aca203bd7dac6979c4fbe4a8a827e7&timestamp=1564415867&nonce=1935165585&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 23:57:52] "POST /api/wechat_verify/?signature=bcefd6ab1672db3cab0dff4f3445dd23d9e2b58c&timestamp=1564415871&nonce=2054048997&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [29/Jul/2019 23:59:06] "POST /api/wechat_verify/?signature=85bfbcd81480568f90434a48c1bd256c4b068bbb&timestamp=1564415946&nonce=518342202&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jul/2019 23:59:11] "POST /api/wechat_verify/?signature=c77c32a74a5c8dc95faf176a87516abd5bfe885b&timestamp=1564415950&nonce=1209537010&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 00:01:22] "POST /api/wechat_verify/?signature=f99d9a66665b3519fcb403047294d7e7bfa6238a&timestamp=1564416082&nonce=1962751024&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 00:01:31] "POST /api/wechat_verify/?signature=085369e4947fdaf2597a2ec9c148730c4f755a3a&timestamp=1564416090&nonce=1668963131&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/models/model.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 00:08:39] "POST /api/wechat_verify/?signature=f69cfb713c42c05455fbdd250a8f16529842a761&timestamp=1564416519&nonce=2020571455&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 00:08:55] "POST /api/wechat_verify/?signature=3fcde8adb7c8476342a231f9db47c6ba5193c8ea&timestamp=1564416534&nonce=190109829&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/factory.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+Fetching access token
+127.0.0.1 - - [30/Jul/2019 10:20:17] "POST /api/wechat_verify/?signature=374453a792ea7396b8e0b88921d6ef551f7d1a8e&timestamp=1564453216&nonce=1876828056&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 10:20:28] "POST /api/wechat_verify/?signature=15b40d5806beaa7703b251d93666687b008498a8&timestamp=1564453228&nonce=478572996&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 10:23:45] "POST /api/wechat_verify/?signature=4474c87d3d61470bbe1c2788665ff3b11ffd101b&timestamp=1564453425&nonce=1854879931&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 10:23:54] "POST /api/wechat_verify/?signature=bf204d17e696633a326c46d6d0ee2161d0b7d65d&timestamp=1564453434&nonce=1299316197&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 10:24:47] "POST /api/wechat_verify/?signature=96813c30fa28dc8f2fc12aa33ee391294c237ecd&timestamp=1564453486&nonce=1451292322&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 10:43:40] "POST /api/wechat_verify/?signature=21932c6ae550a8b591f2dedb6f9e3a6a0d0700e1&timestamp=1564454620&nonce=2129181048&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 11:47:51] "POST /api/wechat_verify/?signature=022ab4fb0d8bd6e9ac6996ced8e358f08dd68087&timestamp=1564458470&nonce=1659820588&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 11:51:52] "POST /api/wechat_verify/?signature=b9c3199f6f7a3eddc812ee9c836e9169caf01754&timestamp=1564458712&nonce=36702448&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 11:52:53] "POST /api/wechat_verify/?signature=8943734b252720d3f3b39a5d8eb193937706019c&timestamp=1564458773&nonce=169783827&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 12:51:18] "GET / HTTP/1.0" 404 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+Fetching access token
+127.0.0.1 - - [30/Jul/2019 12:59:50] "POST /api/wechat_verify/?signature=2b0321ec67398f0d935980fd81e630be693fa3cf&timestamp=1564462790&nonce=902004914&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:02:01] "POST /api/wechat_verify/?signature=a60b179f5cb4dd79e5c707b2dba92355f2a8d3e8&timestamp=1564462921&nonce=341473420&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:02:16] "POST /api/wechat_verify/?signature=c74b03a74272c341e13aac9e8d9c48a2d0174c08&timestamp=1564462935&nonce=1462840862&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:02:45] "POST /api/wechat_verify/?signature=2332566f527e9dd80499722de8944146536a1568&timestamp=1564462965&nonce=333075662&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:02:56] "POST /api/wechat_verify/?signature=dea29711b2f6db34f729c7923df53c489f022742&timestamp=1564462976&nonce=1713746535&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:03:43] "POST /api/wechat_verify/?signature=b6696c277c019b023da627c3653b78155120f5ed&timestamp=1564463023&nonce=445271191&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:03:56] "POST /api/wechat_verify/?signature=9a87ec3db5b420fce8b2d978395c0de2f57ccc76&timestamp=1564463036&nonce=1183186993&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 13:04:02] "GET / HTTP/1.0" 404 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:05:07] "POST /api/wechat_verify/?signature=868b0549459cb6c596266d61dfdabebf9fea3769&timestamp=1564463107&nonce=1104258604&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:07:20] "POST /api/wechat_verify/?signature=3df697eb09e58885b8ffedb754d648fa73218591&timestamp=1564463240&nonce=2090329748&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 13:07:57] "GET / HTTP/1.0" 404 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:08:03] "POST /api/wechat_verify/?signature=32e9f95ae9163a869e7f8abac671a878646db629&timestamp=1564463283&nonce=1761454050&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:08:08] "POST /api/wechat_verify/?signature=4cd10b41aec4cc9cdb7f63f6cffbb9050c14a747&timestamp=1564463288&nonce=1003028005&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:14:59] "POST /api/wechat_verify/?signature=f3f133404966735ea1111737bba3f47b3d0eec1c&timestamp=1564463699&nonce=2117249730&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:15:03] "POST /api/wechat_verify/?signature=3b6ebb5f1f51e21a4844f72038a7d0bfc980cc5b&timestamp=1564463703&nonce=574966009&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:17:15] "POST /api/wechat_verify/?signature=cbce789e6f29ff3beb6e2ff451f29b2b6b047623&timestamp=1564463835&nonce=1949732973&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:17:21] "POST /api/wechat_verify/?signature=39fd9465caa7284f34aec8010cb0ab5692eac9a6&timestamp=1564463841&nonce=1843023883&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/models/model.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:21:29] "POST /api/wechat_verify/?signature=1ddf0a2f03ac013dd3034b7eccac6578e9030a4f&timestamp=1564464089&nonce=435639220&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:21:33] "POST /api/wechat_verify/?signature=fd54836cf48fb87f8982df2aaf921c6538c7df81&timestamp=1564464093&nonce=843352168&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:21:59] "POST /api/wechat_verify/?signature=6ea08f704ea039aa4795944b1050f1bdd2de4410&timestamp=1564464119&nonce=310817414&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:23:47] "POST /api/wechat_verify/?signature=46b10d9b5da0b5f0c5b1cd7a307d0499e3baaf3b&timestamp=1564464226&nonce=199161674&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:24:41] "POST /api/wechat_verify/?signature=ad218459e15274ce829b808a7bc645fcf8b4e30b&timestamp=1564464281&nonce=1719825076&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:24:48] "POST /api/wechat_verify/?signature=95bceb833c499124a258a2f9033f70ac563f3439&timestamp=1564464288&nonce=2042356920&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:27:02] "POST /api/wechat_verify/?signature=08de7c6a3983b7b643dc5bfe8ab7d0f61ce107ac&timestamp=1564464422&nonce=21602032&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:27:09] "POST /api/wechat_verify/?signature=03d1a594b9bdd1d2e71bfe67fdbadebeaa34984f&timestamp=1564464429&nonce=473568605&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 500 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:28:45] "POST /api/wechat_verify/?signature=faa0edf27e8b87626226eb5dd91148ba1cdb95f6&timestamp=1564464525&nonce=373485566&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:28:50] "POST /api/wechat_verify/?signature=e2504df8cd0c262388592abcbc8613898fe7f7da&timestamp=1564464530&nonce=1407980631&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:36:51] "POST /api/wechat_verify/?signature=28012d5ce1b45287dc1081a8bd8dd4d27325880b&timestamp=1564465011&nonce=1922349271&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:36:55] "POST /api/wechat_verify/?signature=bfbf66d58830dd65ecfd00f44d5f9bfde16dd5a9&timestamp=1564465015&nonce=711508801&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:37:15] "POST /api/wechat_verify/?signature=bcde033834d2f4c71b0c1bffed0be39a1234cda9&timestamp=1564465035&nonce=19907574&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:38:59] "POST /api/wechat_verify/?signature=e021c83153893a4fe5aaac4f82df8be6c6823ef4&timestamp=1564465139&nonce=2026185959&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:47:49] "GET / HTTP/1.0" 404 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:50:28] "PUT /api/addDataset HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 13:53:36] "PUT /api/addDataset HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 13:53:37] "HEAD / HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 13:53:53] "GET /api/addDataset HTTP/1.0" 405 -
+127.0.0.1 - - [30/Jul/2019 13:54:22] "GET /api/addDataset HTTP/1.0" 405 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:55:05] "GET /api/addDataset HTTP/1.0" 308 -
+127.0.0.1 - - [30/Jul/2019 13:55:05] "GET /api/addDataset/ HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 13:55:05] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:55:05] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:55:05] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:55:05] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:55:05] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:55:05] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:55:59] "GET /api/addDataset/ HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 13:56:00] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:00] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:00] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:00] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:00] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:00] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:01] "GET /api/addDataset/ HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 13:56:01] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:01] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:01] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:04] "GET /api/addDataset/ HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 13:56:04] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:04] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:04] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:04] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:04] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:05] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:56:18] "GET /api/addDataset/ HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 13:56:19] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:19] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:19] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:19] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:20] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:56:20] "GET /api/addDataset/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:56:55] "GET /api/addDataset/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:57:18] "GET /api/addDataset/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:57:28] "GET /api/addDataset/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:57:41] "GET /api/addDataset/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:58:04] "GET /api/addDataset/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:58:08] "GET /api/addDataset/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 13:58:21] "GET /api/addDataset/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 13:59:05] "PUT /api/addDataset/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 14:00:05] "PUT /api/addDataset/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 14:00:18] "PUT /api/addDataset/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 14:19:57] "GET /api/check_login/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:20:30] "GET /api/check_login/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 14:26:25] "GET /api/check_login/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:26:48] "GET /api/check_login/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:27:15] "GET /api/check_login/?wechat_flag=2019072918480108 HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 14:27:57] "GET /api/check_login/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 14:29:42] "GET /api/check_login/ HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 14:33:03] "GET /api/check_login/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:33:07] "GET /api/check_login/?wechat_flag=2019072918480108 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:33:15] "GET /api/check_login/?wechat_flag=20190729184801087 HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 14:34:01] "GET /api/check_login/?wechat_flag=2019072918480118 HTTP/1.0" 500 -
+127.0.0.1 - - [30/Jul/2019 14:34:06] "GET /api/check_login/?wechat_flag=2019072918480108 HTTP/1.0" 200 -
+ * Detected change in '/data/flask-dataset/app/utils/wechat_utils.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 178-619-586
+127.0.0.1 - - [30/Jul/2019 14:36:21] "GET /api/check_login/?wechat_flag=2019072918480108 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:36:23] "GET /api/check_login/?wechat_flag=20190729184801087 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:36:32] "GET /api/check_login/?wechat_flag=2019072918480108 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:37:09] "GET /api/check_login/ HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:37:14] "GET /api/check_login/?wechat_flag=20190729184801089 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:37:24] "GET /api/check_login/?wechat_flag=2019072918480108 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 14:38:29] "GET /api/addDataset/ HTTP/1.0" 405 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 16:20:02] "POST /api/addDataset/ HTTP/1.1" 405 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 16:21:42] "POST /api/addDataset/ HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 16:24:28] "POST /api/addDataset/ HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+PUT http://localhost:9200/news [status:200 request:0.546s]
+PUT http://localhost:9200/news/politics/1/_create [status:201 request:0.332s]
+127.0.0.1 - - [30/Jul/2019 16:47:02] "POST /api/addDataset/ HTTP/1.1" 200 -
+PUT http://localhost:9200/news [status:400 request:0.032s]
+PUT http://localhost:9200/news/politics/1/_create [status:409 request:0.017s]
+127.0.0.1 - - [30/Jul/2019 16:47:23] "POST /api/addDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 17:09:55] "POST /api/wechat_verify/?signature=a04432eda0b0fbe9de7257153a6f4f95d3d8ec82&timestamp=1564477795&nonce=1603325379&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+Fetching access token
+127.0.0.1 - - [30/Jul/2019 17:10:06] "POST /api/wechat_verify/?signature=da3673cb60f3cb36e05138617f9a9a38548b6435&timestamp=1564477805&nonce=841555523&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 17:27:49] "POST /api/listDataset/ HTTP/1.1" 405 -
+DELETE http://localhost:9200/news [status:404 request:0.047s]
+PUT http://localhost:9200/news [status:500 request:0.200s]
+127.0.0.1 - - [30/Jul/2019 17:27:53] "GET /api/listDataset/ HTTP/1.1" 500 -
+DELETE http://localhost:9200/news [status:404 request:0.005s]
+PUT http://localhost:9200/news [status:200 request:0.432s]
+PUT http://localhost:9200/news/_mapping/politics [status:200 request:0.114s]
+127.0.0.1 - - [30/Jul/2019 17:28:33] "GET /api/listDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+DELETE http://localhost:9200/news [status:200 request:0.090s]
+PUT http://localhost:9200/news [status:200 request:0.133s]
+PUT http://localhost:9200/news/_mapping/politics [status:200 request:0.029s]
+127.0.0.1 - - [30/Jul/2019 17:29:31] "GET /api/listDataset/ HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+PUT http://localhost:9200/news [status:400 request:0.028s]
+POST http://localhost:9200/news/politics [status:500 request:0.294s]
+127.0.0.1 - - [30/Jul/2019 17:32:00] "POST /api/addDataset/ HTTP/1.1" 500 -
+PUT http://localhost:9200/news [status:400 request:0.007s]
+POST http://localhost:9200/news/politics [status:500 request:0.019s]
+127.0.0.1 - - [30/Jul/2019 17:32:44] "POST /api/addDataset/ HTTP/1.1" 500 -
+PUT http://localhost:9200/news [status:400 request:0.005s]
+POST http://localhost:9200/news/politics [status:500 request:0.015s]
+127.0.0.1 - - [30/Jul/2019 17:32:45] "POST /api/addDataset/ HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+PUT http://localhost:9200/news [status:200 request:0.449s]
+POST http://localhost:9200/news/politics [status:201 request:0.469s]
+POST http://localhost:9200/news/politics [status:201 request:0.030s]
+POST http://localhost:9200/news/politics [status:201 request:0.020s]
+POST http://localhost:9200/news/politics [status:201 request:0.022s]
+127.0.0.1 - - [30/Jul/2019 18:21:49] "POST /api/addDataset/ HTTP/1.1" 200 -
+DELETE http://localhost:9200/news [status:200 request:0.064s]
+PUT http://localhost:9200/news [status:200 request:0.138s]
+PUT http://localhost:9200/news/_mapping/politics [status:400 request:0.012s]
+127.0.0.1 - - [30/Jul/2019 18:22:01] "GET /api/listDataset/ HTTP/1.1" 500 -
+DELETE http://localhost:9200/news [status:200 request:0.075s]
+PUT http://localhost:9200/news [status:200 request:0.119s]
+PUT http://localhost:9200/news/_mapping/politics [status:400 request:0.010s]
+127.0.0.1 - - [30/Jul/2019 18:22:03] "GET /api/listDataset/ HTTP/1.1" 500 -
+DELETE http://localhost:9200/news [status:200 request:0.045s]
+PUT http://localhost:9200/news [status:200 request:0.119s]
+PUT http://localhost:9200/news/_mapping/politics [status:400 request:0.014s]
+127.0.0.1 - - [30/Jul/2019 18:22:04] "GET /api/listDataset/ HTTP/1.1" 500 -
+DELETE http://localhost:9200/news [status:200 request:0.074s]
+PUT http://localhost:9200/news [status:200 request:0.415s]
+PUT http://localhost:9200/news/_mapping/politics [status:200 request:0.099s]
+127.0.0.1 - - [30/Jul/2019 18:34:51] "GET /api/listDataset/ HTTP/1.1" 200 -
+DELETE http://localhost:9200/news [status:200 request:0.074s]
+PUT http://localhost:9200/news [status:200 request:0.141s]
+PUT http://localhost:9200/news/_mapping/politics [status:200 request:0.018s]
+127.0.0.1 - - [30/Jul/2019 18:34:54] "GET /api/listDataset/ HTTP/1.1" 200 -
+PUT http://localhost:9200/news [status:400 request:0.012s]
+POST http://localhost:9200/news/politics [status:500 request:0.171s]
+127.0.0.1 - - [30/Jul/2019 18:35:30] "POST /api/addDataset/ HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 18:37:46] "GET /db/phpMyAdmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:46] "GET /sqlmanager/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:47] "GET /mysqlmanager/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:48] "GET /php-myadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:48] "GET /phpmy-admin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:49] "GET /mysqladmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:50] "GET /mysql-admin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:50] "GET /admin/phpmyadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:51] "GET /admin/phpMyAdmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:52] "GET /admin/sysadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:53] "GET /admin/sqladmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:53] "GET /admin/db/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:54] "GET /admin/web/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:54] "GET /admin/pMA/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:55] "GET /mysql/pma/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:56] "GET /mysql/db/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:56] "GET /mysql/web/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:57] "GET /mysql/pMA/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:58] "GET /sql/phpmanager/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:59] "GET /sql/php-myadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:37:59] "GET /sql/phpmy-admin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:00] "GET /sql/sql/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:01] "GET /sql/myadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:01] "GET /sql/webadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:02] "GET /sql/sqlweb/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:03] "GET /sql/websql/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:03] "GET /sql/webdb/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:04] "GET /sql/sqladmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:05] "GET /sql/sql-admin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:05] "GET /sql/phpmyadmin2/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:06] "GET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:07] "GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:07] "GET /db/myadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:08] "GET /db/webadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:08] "GET /db/dbweb/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:09] "GET /db/websql/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:10] "GET /db/webdb/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:10] "GET /db/dbadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:11] "GET /db/db-admin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:12] "GET /db/phpmyadmin3/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:12] "GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:13] "GET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:13] "GET /administrator/phpmyadmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:14] "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:15] "GET /administrator/db/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:15] "GET /administrator/web/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:16] "GET /administrator/pma/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:17] "GET /administrator/PMA/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:17] "GET /administrator/admin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:18] "GET /phpMyAdmin2/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:19] "GET /phpMyAdmin3/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:19] "GET /phpMyAdmin4/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:20] "GET /phpMyAdmin-3/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:21] "GET /php-my-admin/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:21] "GET /PMA2011/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:22] "GET /PMA2012/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:23] "GET /PMA2013/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:23] "GET /PMA2014/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:24] "GET /PMA2015/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:24] "GET /PMA2016/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:25] "GET /PMA2017/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:26] "GET /PMA2018/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:26] "GET /pma2011/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:27] "GET /pma2012/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:28] "GET /pma2013/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:28] "GET /pma2014/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:29] "GET /pma2015/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:30] "GET /pma2016/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:30] "GET /pma2017/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:31] "GET /pma2018/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:32] "GET /pma2019/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:32] "GET /phpmyadmin2011/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:33] "GET /phpmyadmin2012/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:34] "GET /phpmyadmin2013/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:34] "GET /phpmyadmin2014/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:35] "GET /phpmyadmin2015/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:35] "GET /phpmyadmin2016/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:36] "GET /phpmyadmin2017/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:37] "GET /phpmyadmin2018/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:37] "GET /phpmyadmin2019/index.php?lang=en HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 18:38:38] "GET /index.php?lang=en HTTP/1.0" 404 -
+DELETE http://localhost:9200/news [status:404 request:0.034s]
+PUT http://localhost:9200/news [status:200 request:0.839s]
+PUT http://localhost:9200/news/_mapping/politics [status:200 request:0.048s]
+127.0.0.1 - - [30/Jul/2019 18:43:58] "GET /api/listDataset/ HTTP/1.1" 200 -
+PUT http://localhost:9200/news [status:400 request:0.009s]
+POST http://localhost:9200/news/politics [status:201 request:0.180s]
+POST http://localhost:9200/news/politics [status:201 request:0.016s]
+POST http://localhost:9200/news/politics [status:201 request:0.018s]
+POST http://localhost:9200/news/politics [status:201 request:0.032s]
+127.0.0.1 - - [30/Jul/2019 18:44:05] "POST /api/addDataset/ HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 18:46:41] "GET /api/listDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+GET http://localhost:9200/news/_search [status:200 request:0.125s]
+127.0.0.1 - - [30/Jul/2019 18:47:13] "GET /api/listDataset/ HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 18:47:36] "GET /api/listDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+GET http://localhost:9200/news/_search [status:200 request:0.029s]
+127.0.0.1 - - [30/Jul/2019 18:47:47] "GET /api/listDataset/ HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 18:49:28] "GET /api/listDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+GET http://localhost:9200/news/_search [status:200 request:0.068s]
+127.0.0.1 - - [30/Jul/2019 18:49:39] "GET /api/listDataset/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 18:50:41] "GET / HTTP/1.0" 404 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+GET http://localhost:9200/news/_search [status:200 request:0.021s]
+127.0.0.1 - - [30/Jul/2019 18:52:03] "GET /api/listDataset/ HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 18:58:30] "GET /api/listDataset/ HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.020s]
+127.0.0.1 - - [30/Jul/2019 18:58:40] "GET /api/listDataset/?keyword= HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.012s]
+127.0.0.1 - - [30/Jul/2019 18:58:47] "GET /api/listDataset/?keyword=中国 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.010s]
+127.0.0.1 - - [30/Jul/2019 18:58:55] "GET /api/listDataset/?keyword=中 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.011s]
+127.0.0.1 - - [30/Jul/2019 18:59:26] "GET /api/listDataset/?keyword=韩国 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.010s]
+127.0.0.1 - - [30/Jul/2019 18:59:30] "GET /api/listDataset/?keyword=韩 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.014s]
+127.0.0.1 - - [30/Jul/2019 18:59:36] "GET /api/listDataset/?keyword=中 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.008s]
+127.0.0.1 - - [30/Jul/2019 18:59:46] "GET /api/listDataset/?keyword=国 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.011s]
+127.0.0.1 - - [30/Jul/2019 18:59:49] "GET /api/listDataset/?keyword=国家 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.010s]
+127.0.0.1 - - [30/Jul/2019 18:59:56] "GET /api/listDataset/?keyword=自首 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 19:05:29] "POST /api/wechat_verify/?signature=5a409aa730641c8cdaa1008bee31dc53247f16fe&timestamp=1564484729&nonce=1738264143&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 19:17:56] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 19:27:08] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 19:37:35] "GET / HTTP/1.0" 404 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 20:00:42] "POST /api/addDataset/ HTTP/1.1" 400 -
+127.0.0.1 - - [30/Jul/2019 20:01:39] "POST /api/addDataset/ HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.032s]
+127.0.0.1 - - [30/Jul/2019 20:01:52] "GET /api/listDataset/?keyword=自首 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/politics [status:201 request:0.028s]
+127.0.0.1 - - [30/Jul/2019 20:03:36] "POST /api/addDataset/ HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.014s]
+127.0.0.1 - - [30/Jul/2019 20:03:58] "GET /api/listDataset/?keyword=今天 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+GET http://localhost:9200/news/_search [status:200 request:0.018s]
+127.0.0.1 - - [30/Jul/2019 20:10:58] "GET /api/listDataset/?keyword=韩国 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.008s]
+127.0.0.1 - - [30/Jul/2019 20:11:26] "GET /api/listDataset/?keyword=今天 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 20:12:04] "POST /api/editDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/politics/xjjDQmwB3TPWjuv6r4Ny/_update [status:400 request:0.021s]
+127.0.0.1 - - [30/Jul/2019 20:12:21] "POST /api/editDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/politics/xjjDQmwB3TPWjuv6r4Ny/_update [status:500 request:0.047s]
+127.0.0.1 - - [30/Jul/2019 20:13:10] "POST /api/editDataset/ HTTP/1.1" 500 -
+GET http://localhost:9200/news/_search [status:200 request:0.007s]
+127.0.0.1 - - [30/Jul/2019 20:13:41] "GET /api/listDataset/?keyword=今天 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/_doc/xjjDQmwB3TPWjuv6r4Ny/_update [status:500 request:0.020s]
+127.0.0.1 - - [30/Jul/2019 20:14:39] "POST /api/editDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 20:18:39] "POST /api/deleteDatasett/ HTTP/1.1" 404 -
+127.0.0.1 - - [30/Jul/2019 20:18:43] "DELETE /api/deleteDatasett/ HTTP/1.1" 404 -
+127.0.0.1 - - [30/Jul/2019 20:20:34] "GET / HTTP/1.0" 404 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 20:21:40] "DELETE /api/deleteDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+DELETE http://localhost:9200/news/politics/xjjDQmwB3TPWjuv6r4Ny [status:200 request:0.034s]
+127.0.0.1 - - [30/Jul/2019 20:22:02] "DELETE /api/deleteDataset/ HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.011s]
+127.0.0.1 - - [30/Jul/2019 20:22:13] "GET /api/listDataset/?keyword=今天 HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.014s]
+127.0.0.1 - - [30/Jul/2019 20:22:26] "GET /api/listDataset/?keyword=中国 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+GET http://localhost:9200/news/_search [status:200 request:0.022s]
+127.0.0.1 - - [30/Jul/2019 20:26:03] "GET /api/listDataset/?keyword=news HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.011s]
+127.0.0.1 - - [30/Jul/2019 20:26:16] "GET /api/getDataset/?keyword=news HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.009s]
+127.0.0.1 - - [30/Jul/2019 20:26:27] "GET /api/getDataset/?keyword=中国 HTTP/1.1" 200 -
+POST http://localhost:9200/news/_doc/xjjDQmwB3TPWjuv6r4Ny/_update [status:500 request:0.015s]
+127.0.0.1 - - [30/Jul/2019 20:27:25] "POST /api/editDataset/ HTTP/1.1" 500 -
+GET http://localhost:9200/news/_search [status:200 request:0.016s]
+127.0.0.1 - - [30/Jul/2019 20:27:41] "GET /api/getDataset/?keyword=news HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.012s]
+127.0.0.1 - - [30/Jul/2019 20:27:48] "GET /api/listDataset/?keyword=news HTTP/1.1" 200 -
+POST http://localhost:9200/news/_doc/wzh6QmwB3TPWjuv64oMb/_update [status:500 request:0.009s]
+127.0.0.1 - - [30/Jul/2019 20:28:13] "POST /api/editDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 20:31:15] "GET /index.php HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 20:31:16] "GET /phpmyadmin/index.php HTTP/1.0" 404 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/_doc/wzh6QmwB3TPWjuv64oMb/_update [status:500 request:0.029s]
+127.0.0.1 - - [30/Jul/2019 20:32:22] "POST /api/editDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/politics/wzh6QmwB3TPWjuv64oMb/_update [status:500 request:0.021s]
+127.0.0.1 - - [30/Jul/2019 20:32:50] "POST /api/editDataset/ HTTP/1.1" 500 -
+127.0.0.1 - - [30/Jul/2019 20:35:09] "GET / HTTP/1.0" 404 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/politics/wzh6QmwB3TPWjuv64oMb/_update [status:500 request:0.013s]
+127.0.0.1 - - [30/Jul/2019 20:37:58] "POST /api/editDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/politics/wzh6QmwB3TPWjuv64oMb/_update [status:400 request:0.013s]
+127.0.0.1 - - [30/Jul/2019 20:38:43] "POST /api/editDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/politics/wzh6QmwB3TPWjuv64oMb/_update [status:500 request:0.018s]
+127.0.0.1 - - [30/Jul/2019 20:39:25] "POST /api/editDataset/ HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+POST http://localhost:9200/news/politics/wzh6QmwB3TPWjuv64oMb/_update [status:200 request:0.084s]
+127.0.0.1 - - [30/Jul/2019 20:40:24] "POST /api/editDataset/ HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.010s]
+127.0.0.1 - - [30/Jul/2019 20:40:37] "GET /api/listDataset/?keyword=news HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+Fetching access token
+127.0.0.1 - - [30/Jul/2019 20:45:06] "GET /api/get_qrcode HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 20:46:07] "GET /api/get_qrcode HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 20:50:08] "GET /api/check_login?wechat_flag=2019073020460794 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 20:50:40] "GET /api/get_qrcode HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 20:51:03] "POST /api/wechat_verify/?signature=4eb582c70b25ce0c4b48c274df57f7f22260701e&timestamp=1564491062&nonce=774539492&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Jul/2019 20:51:20] "GET /api/check_login?wechat_flag=2019073020504051 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 20:52:16] "GET /api/check_login HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 21:16:32] "PUT /api/logout HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 21:16:46] "PUT /api/logout HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:16:49] "PUT /api/logout HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 21:17:21] "PUT /api/logout HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:17:59] "POST /api/wechat_verify/?signature=0650837ca7ca50352d5ef8628c1272d088615d93&timestamp=1564492679&nonce=1001786637&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+ * Detected change in '/Users/etscript/Desktop/app/flask-dataset/app/api/api_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-948-917
+127.0.0.1 - - [30/Jul/2019 21:20:46] "POST /api/addDataset/ HTTP/1.1" 405 -
+POST http://localhost:9200/news/politics [status:201 request:0.027s]
+127.0.0.1 - - [30/Jul/2019 21:20:51] "PUT /api/addDataset/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:21:35] "PUT /api/addDataset/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:22:25] "GET /phpMyAdmin HTTP/1.0" 404 -
+127.0.0.1 - - [30/Jul/2019 21:23:03] "GET /php HTTP/1.0" 404 -
+POST http://localhost:9200/news/politics [status:201 request:0.045s]
+127.0.0.1 - - [30/Jul/2019 21:25:29] "PUT /api/addDataset/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:26:39] "POST /api/editDataset HTTP/1.1" 400 -
+127.0.0.1 - - [30/Jul/2019 21:26:44] "GET /api/editDataset HTTP/1.1" 405 -
+GET http://localhost:9200/%E4%BB%8A%E5%A4%A9/_search [status:404 request:0.006s]
+127.0.0.1 - - [30/Jul/2019 21:26:54] "GET /api/listDataset/?keyword=今天 HTTP/1.1" 500 -
+GET http://localhost:9200/news/_search [status:200 request:0.015s]
+127.0.0.1 - - [30/Jul/2019 21:28:21] "GET /api/listDataset/?keyword=news HTTP/1.1" 200 -
+DELETE http://localhost:9200/news/politics/xzgKQ2wB3TPWjuv6Z4Nv [status:200 request:0.009s]
+127.0.0.1 - - [30/Jul/2019 21:28:59] "DELETE /api/deleteDataset/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:29:14] "DELETE /api/deleteDataset/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:29:25] "DELETE /api/deleteDataset/ HTTP/1.1" 200 -
+DELETE http://localhost:9200/news/politics/xzgKQ2wB3TPWjuv6Z4Nv [status:404 request:0.011s]
+127.0.0.1 - - [30/Jul/2019 21:29:30] "DELETE /api/deleteDataset/ HTTP/1.1" 500 -
+127.0.0.1 - - [30/Jul/2019 21:29:52] "GET / HTTP/1.0" 404 -
+POST http://localhost:9200/news/politics/xjjDQmwB3TPWjuv6r4Ny/_update [status:404 request:0.011s]
+127.0.0.1 - - [30/Jul/2019 21:31:14] "POST /api/editDataset/ HTTP/1.1" 500 -
+POST http://localhost:9200/news/politics/xTh6QmwB3TPWjuv64oM_/_update [status:200 request:0.022s]
+127.0.0.1 - - [30/Jul/2019 21:31:47] "POST /api/editDataset/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:32:00] "POST /api/editDataset/ HTTP/1.1" 200 -
+GET http://localhost:9200/news/_search [status:200 request:0.018s]
+127.0.0.1 - - [30/Jul/2019 21:34:08] "GET /api/getDataset/?keyword=中国 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Jul/2019 21:34:29] "GET / HTTP/1.0" 404 -
+GET http://localhost:9200/news/_search [status:200 request:0.009s]
+127.0.0.1 - - [30/Jul/2019 21:36:26] "GET /api/listDataset/?keyword=news HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 16:48:49] "GET /api/search_company?word=上海思华 HTTP/1.1" 404 -
+Fetching access token
+127.0.0.1 - - [25/Mar/2020 16:49:18] "GET /api/get_qrcode HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 16:50:33] "GET /api/search_company?word=上海思华 HTTP/1.1" 404 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/router.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 16:53:49] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 16:53:49] "GET /api/search_company/?word=上海思华 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2020 16:54:18] "GET /api/get_qrcode HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 16:55:03] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 16:55:03] "GET /api/search_company/?word=上海思华 HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 16:55:58] "GET /api/get_qrcode HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 16:56:46] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 16:56:46] "GET /api/search_company/?word=上海思华 HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 16:57:14] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 16:57:15] "GET /api/search_company/?word=上海思华 HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 16:58:13] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 16:58:13] "GET /api/search_company/?word=上海思华 HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:04:16] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 17:04:17] "GET /api/search_company/?word=上海思华 HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:08:05] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 17:08:06] "GET /api/search_company/?word=上海思华 HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:10:42] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 17:10:42] "GET /api/search_company/?word=上海思华 HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:11:23] "GET /api/search_company?word=上海思华 HTTP/1.1" 308 -
+127.0.0.1 - - [25/Mar/2020 17:11:23] "GET /api/search_company/?word=上海思华 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:14:11] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:14:26] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2020 17:14:32] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:24:18] "GET /api/search_company?word=上海思华 HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:29:36] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:30:03] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:30:15] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2020 17:30:16] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [25/Mar/2020 17:30:25] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2020 17:30:26] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2020 17:30:27] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2020 17:30:28] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2020 17:30:28] "GET /api/search_company?word=上海思华 HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/tianyancha.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/models/model.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/router.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 13:50:05] "POST /api/wxusers HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/wxusers.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 13:50:45] "POST /api/wxusers HTTP/1.1" 200 -
+127.0.0.1 - - [26/Mar/2020 13:51:15] "POST /api/wxusers HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/wxusers.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 13:54:35] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/wxusers.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 13:55:24] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/wxusers.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 13:56:49] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/wxusers.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:00:04] "POST /api/wxusers HTTP/1.1" 200 -
+127.0.0.1 - - [26/Mar/2020 14:01:25] "POST /api/wxusers HTTP/1.1" 500 -
+127.0.0.1 - - [26/Mar/2020 14:03:47] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/wxusers.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:04:08] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:04:51] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:15:35] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:15:59] "POST /api/wxusers HTTP/1.1" 500 -
+127.0.0.1 - - [26/Mar/2020 14:17:54] "POST /api/wxusers HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:18:17] "POST /api/wxusers HTTP/1.1" 200 -
+127.0.0.1 - - [26/Mar/2020 14:18:43] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:22:49] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:28:40] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:29:15] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:33:22] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:34:13] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 14:38:58] "POST /api/wxusers HTTP/1.1" 500 -
+127.0.0.1 - - [26/Mar/2020 14:39:02] "POST /api/wxusers HTTP/1.1" 500 -
+127.0.0.1 - - [26/Mar/2020 14:48:32] "POST /api/wxusers HTTP/1.1" 500 -
+127.0.0.1 - - [26/Mar/2020 14:50:06] "POST /api/wxusers HTTP/1.1" 500 -
+Error: Directory migrations already exists
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 16:24:59] "POST /api/wxusers HTTP/1.1" 500 -
+127.0.0.1 - - [26/Mar/2020 16:27:33] "POST /api/wxusers HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/wxusers.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+ * Detected change in '/Users/etscript/Desktop/wiz-wxapp/dataset-back/app/api/wxusers.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 445-997-213
+127.0.0.1 - - [26/Mar/2020 16:33:00] "POST /api/wxusers HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [26/Mar/2020 16:50:48] "POST /api/wxusers HTTP/1.0" 500 -
+127.0.0.1 - - [26/Mar/2020 16:50:50] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [26/Mar/2020 16:50:50] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [26/Mar/2020 16:54:50] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [26/Mar/2020 16:59:22] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [26/Mar/2020 17:03:16] "POST /api/wxusers HTTP/1.0" 500 -
+127.0.0.1 - - [26/Mar/2020 17:03:56] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [26/Mar/2020 17:13:27] "POST /api/wxusers HTTP/1.0" 500 -
+127.0.0.1 - - [26/Mar/2020 17:17:31] "POST /api/wxusers HTTP/1.0" 500 -
+127.0.0.1 - - [26/Mar/2020 17:19:39] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [26/Mar/2020 17:20:46] "POST /api/wxusers HTTP/1.0" 500 -
+127.0.0.1 - - [26/Mar/2020 17:22:48] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [26/Mar/2020 17:25:45] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 10:32:46] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 10:40:19] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 10:58:37] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 11:17:55] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 11:22:06] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 11:54:17] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 11:55:25] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 11:56:55] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 12:16:16] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 12:17:45] "POST /api/wxusers HTTP/1.0" 500 -
+127.0.0.1 - - [27/Mar/2020 12:30:49] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [27/Mar/2020 13:18:42] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 13:43:09] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 13:47:58] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 13:55:20] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 14:09:23] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 14:13:40] "POST /api/wxusers HTTP/1.0" 404 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 14:15:39] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 14:17:18] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 14:22:41] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 14:23:30] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 14:30:39] "POST /api/wxusers HTTP/1.0" 500 -
+127.0.0.1 - - [27/Mar/2020 14:39:05] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [27/Mar/2020 14:39:20] "GET / HTTP/1.0" 404 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 15:03:24] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 15:07:23] "POST /api/wxusers HTTP/1.0" 500 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 15:08:10] "POST /api/wxusers HTTP/1.0" 200 -
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Detected change in '/root/dataset-back/app/utils/wxapp.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [27/Mar/2020 18:00:01] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [27/Mar/2020 18:00:20] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [27/Mar/2020 18:04:03] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [27/Mar/2020 23:59:46] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [28/Mar/2020 00:00:09] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [28/Mar/2020 11:23:30] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [28/Mar/2020 11:23:46] "GET / HTTP/1.0" 404 -
+ * Detected change in '/root/dataset-back/run.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+Fetching access token
+127.0.0.1 - - [30/Mar/2020 12:01:19] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:04:20] "GET /api/get_qrcode HTTP/1.0" 200 -
+ * Detected change in '/root/dataset-back/run.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [30/Mar/2020 12:09:39] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:09:41] "GET /api/check_login?wechat_flag=2020033012093983 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:09:44] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:09:46] "GET /api/check_login?wechat_flag=2020033012094376 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:16] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:18] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:20] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:22] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:24] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:26] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:28] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:30] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:32] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:34] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:36] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:38] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:40] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:42] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:44] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:46] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:48] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:50] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:52] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:54] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:56] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:16:58] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:00] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:02] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:04] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:06] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:08] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:10] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:12] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:14] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:16] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:18] "POST /api/wechat_verify/?signature=fc40629342c3f979db80ff4be8ddac244912d5ee&timestamp=1585541838&nonce=1024146560&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 12:17:18] "GET /api/check_login?wechat_flag=2020033012161646 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:01:58] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:00] "GET /api/check_login?wechat_flag=2020033013015798 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:09] "GET /api/check_login?wechat_flag=2020033013015798 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:09] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:16] "GET /api/check_login?wechat_flag=2020033013020974 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:22] "GET /api/check_login?wechat_flag=2020033013020974 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:27] "GET /api/check_login?wechat_flag=2020033013020974 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:30] "GET /api/check_login?wechat_flag=2020033013020974 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:42] "GET /api/check_login?wechat_flag=2020033013020974 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:42] "GET /api/check_login?wechat_flag=2020033013020974 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:46] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:48] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:50] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:52] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:54] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:56] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:02:58] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:00] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:02] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:04] "GET /api/check_login?wechat_flag=2020033013024631 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:05] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:07] "GET /api/check_login?wechat_flag=2020033013030449 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:30] "GET /api/check_login?wechat_flag=2020033013030449 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:30] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:39] "GET /api/check_login?wechat_flag=2020033013033093 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:42] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:44] "GET /api/check_login?wechat_flag=2020033013034232 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:46] "GET /api/check_login?wechat_flag=2020033013034232 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:48] "GET /api/check_login?wechat_flag=2020033013034232 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:50] "GET /api/check_login?wechat_flag=2020033013034232 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:52] "GET /api/check_login?wechat_flag=2020033013034232 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:54] "GET /api/check_login?wechat_flag=2020033013034232 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:56] "GET /api/check_login?wechat_flag=2020033013034232 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:03:56] "POST /api/wechat_verify/?signature=240617d7e19ff8e4bffa3583a44a393e7f3cab6a&timestamp=1585544635&nonce=1744484813&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:14:51] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:14:53] "GET /api/check_login?wechat_flag=2020033013145042 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:14:55] "GET /api/check_login?wechat_flag=2020033013145042 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:14:57] "GET /api/check_login?wechat_flag=2020033013145042 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:14:59] "GET /api/check_login?wechat_flag=2020033013145042 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:15:01] "POST /api/wechat_verify/?signature=c8f57cdc3100770e77cbb4304087b515460f3ace&timestamp=1585545300&nonce=932071473&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:15:01] "GET /api/check_login?wechat_flag=2020033013145042 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:30:12] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:30:14] "GET /api/check_login?wechat_flag=2020033013301209 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:30:16] "GET /api/check_login?wechat_flag=2020033013301209 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:30:18] "GET /api/check_login?wechat_flag=2020033013301209 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:30:20] "GET /api/check_login?wechat_flag=2020033013301209 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:30:21] "POST /api/wechat_verify/?signature=8287b0c39ce2a245224711fbc3c3eb856693a3ae&timestamp=1585546220&nonce=2127343025&openid=ok4zowltoA4PBtVIs3rsIm9QWeBA HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 13:30:22] "GET /api/check_login?wechat_flag=2020033013301209 HTTP/1.0" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 620-098-861
+127.0.0.1 - - [30/Mar/2020 18:07:39] "GET /api/get_qrcode HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 18:07:39] "POST /api/ad HTTP/1.0" 404 -
+127.0.0.1 - - [30/Mar/2020 18:07:41] "GET /api/check_login?wechat_flag=20200330180739100 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 18:07:43] "GET /api/check_login?wechat_flag=20200330180739100 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 18:07:45] "GET /api/check_login?wechat_flag=20200330180739100 HTTP/1.0" 200 -
+127.0.0.1 - - [30/Mar/2020 18:07:47] "POST /api/article/list HTTP/1.0" 404 -
+127.0.0.1 - - [30/Mar/2020 18:07:47] "GET /api/article/classify HTTP/1.0" 404 -
+127.0.0.1 - - [30/Mar/2020 18:07:50] "POST /api/ad HTTP/1.0" 404 -
+127.0.0.1 - - [30/Mar/2020 18:07:51] "POST /api/article/list HTTP/1.0" 404 -
+127.0.0.1 - - [30/Mar/2020 18:07:51] "GET /api/article/classify HTTP/1.0" 404 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:01:59] "POST /api/ad HTTP/1.1" 404 -
+127.0.0.1 - - [31/Mar/2020 00:01:59] "POST /api/article/list HTTP/1.1" 404 -
+127.0.0.1 - - [31/Mar/2020 00:01:59] "GET /api/article/classify HTTP/1.1" 404 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/router.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:04:31] "POST /api/ad HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:04:31] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:04:31] "POST /api/article/list HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:07:58] "POST /api/ad HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:07:58] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:07:58] "POST /api/article/list HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/article.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:09:28] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:09:28] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:09:28] "POST /api/article/list HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/utils/util.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:15:37] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:15:37] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:15:37] "POST /api/article/list HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:16:10] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:16:10] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:16:10] "POST /api/article/list HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/article.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:18:17] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:18:17] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:18:17] "POST /api/article/list HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:19:04] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:19:04] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:19:04] "POST /api/article/list HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/article.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:21:11] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:21:11] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:21:12] "POST /api/article/list HTTP/1.1" 500 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/article.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:21:40] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:21:40] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:21:40] "POST /api/article/list HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:22:30] "POST /api/article/list HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:22:31] "POST /api/article/list HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:22:32] "POST /api/article/list HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/article.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/article.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:28:23] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:28:23] "GET /api/article/classify HTTP/1.1" 500 -
+127.0.0.1 - - [31/Mar/2020 00:28:23] "POST /api/article/list HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/article.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 00:28:47] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:28:47] "GET /api/article/classify HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 00:28:47] "POST /api/article/list HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:15:46] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:15:46] "GET /api/article/classify HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:15:47] "GET /api/webinfo/read HTTP/1.1" 404 -
+127.0.0.1 - - [31/Mar/2020 23:15:47] "POST /api/article/list HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:16:02] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:16:02] "GET /api/article/classify HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:16:02] "GET /api/webinfo/read HTTP/1.1" 404 -
+127.0.0.1 - - [31/Mar/2020 23:16:02] "POST /api/article/list HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/models/model.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/router.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 23:40:29] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:40:29] "GET /api/article/classify HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:40:29] "POST /api/article/list HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:40:30] "GET /api/webinfo/read HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 640-167-899
+127.0.0.1 - - [31/Mar/2020 23:42:37] "POST /api/ad HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:42:37] "GET /api/article/classify HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:42:37] "POST /api/article/list HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2020 23:42:37] "GET /api/webinfo/read HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 110-479-258
+127.0.0.1 - - [04/Apr/2020 22:12:51] "POST /api/image/upload HTTP/1.1" 404 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/dataset-back/app/api/router.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 110-479-258
+127.0.0.1 - - [04/Apr/2020 22:13:36] "POST /api/image/upload HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+127.0.0.1 - - [08/Apr/2020 01:02:33] "GET /api/get_testapi HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/api/test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+127.0.0.1 - - [08/Apr/2020 01:11:18] "GET /api/get_testapi HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/utils/util.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/utils/util.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/utils/util.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/utils/util.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/utils/util.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/utils/util.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/factory.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+127.0.0.1 - - [08/Apr/2020 10:53:51] "GET /api/get_testapi HTTP/1.1" 200 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/utils/response.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/api/test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/api/test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/api/__init__.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+127.0.0.1 - - [16/Apr/2020 22:48:21] "POST /api/get_qrcode HTTP/1.1" 404 -
+ * Detected change in '/Users/etscript/Desktop/projectdriven/No.1/vue-flask/app/api/__init__.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 436-466-661
+127.0.0.1 - - [16/Apr/2020 22:55:53] "POST /api/get_qrcode HTTP/1.1" 405 -
+127.0.0.1 - - [16/Apr/2020 22:55:53] "POST /api/get_qrcode HTTP/1.1" 405 -
+127.0.0.1 - - [16/Apr/2020 22:56:00] "GET /api/get_qrcode HTTP/1.1" 308 -
+Fetching access token
+127.0.0.1 - - [16/Apr/2020 22:56:01] "GET /api/get_qrcode/ HTTP/1.1" 200 -

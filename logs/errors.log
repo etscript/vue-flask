@@ -1,0 +1,11 @@
+2019-07-29 17:40:36,966 [app.api.api_test] [ERROR] :40: this is error
+2019-07-29 17:40:36,967 [app.api.api_test] [CRITICAL] :50: this is critical
+2019-07-29 17:41:43,839 [app.api.api_test] [ERROR] :40: this is error
+2019-07-29 17:41:43,839 [app.api.api_test] [CRITICAL] :50: this is critical
+2019-07-29 17:42:47,679 [app.api.api_test] [ERROR] :40: this is error
+2019-07-29 17:42:47,679 [app.api.api_test] [CRITICAL] :50: this is critical
+2019-07-29 17:43:08,651 [app.api.api_test] [ERROR] :40: this is error
+2019-07-29 17:43:08,651 [app.api.api_test] [CRITICAL] :50: this is critical
+2019-07-29 17:43:30,391 [app.api.api_test] [ERROR] :40: this is error
+2019-07-29 17:43:30,391 [app.api.api_test] [CRITICAL] :50: this is critical
+2020-03-26 16:16:31,179 [root] [ERROR] :40: Error: Directory migrations already exists
