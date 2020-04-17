@@ -42,12 +42,12 @@ def upload_image():
         data = 'You must post JSON data.'
         return ResMsg(code=code, data=data).data
     url = do_upload_image(data)
-    return {
+    return jsonify({
         "code": 200,
         "data": {
             "url": url
         },
-        "status": "success"}
+        "status": "success"})
 
 @bp.route('/image/delete', methods=['POST'])
 def delete_image():
@@ -61,10 +61,10 @@ def delete_image():
       do_delete_image(data["image"])
     except:
       pass
-    return {
+    return jsonify({
         "code": 200,
         "message": "图片删除成功",
-        "status": "success"}
+        "status": "success"})
 
 
 

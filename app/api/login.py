@@ -21,7 +21,7 @@ es = Elasticsearch()
 
 logger = logging.getLogger(__name__)
 
-@bp.route('/get_qrcode/', methods=['GET'])
+@bp.route('/get_qrcode', methods=['GET'])
 def get_qrcode():
     res = ResMsg()
     # 创建flag
@@ -36,7 +36,7 @@ def get_qrcode():
                 wechat_flag = wechat_flag)) 
     return res.data
 
-@bp.route('/wechat_verify/',methods=['GET','POST'])
+@bp.route('/wechat_verify',methods=['GET','POST'])
 def wechat_verify():
     '''
     用来处理微信服务器对本后台的验证，GET方法。
@@ -65,7 +65,7 @@ def wechat_verify():
         else:
             return tuple_args[0]
 
-@bp.route('/check_login/',methods=['GET'])
+@bp.route('/check_login',methods=['GET'])
 def check_login():
     res = ResMsg()
     rq_dict = request.args
@@ -88,7 +88,7 @@ def check_login():
     res.update(code=code, data=data, status=status)
     return res.data
 
-@bp.route('/logout/',methods=['POST'])
+@bp.route('/logout',methods=['POST'])
 @login_required
 def check_logout():
     res = ResMsg()

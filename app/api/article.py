@@ -10,7 +10,7 @@ import json
 import os
 
 
-@bp.route('/ad/', methods=['POST'])
+@bp.route('/ad', methods=['POST'])
 def get_ad():
     ad = [
     {
@@ -182,7 +182,7 @@ def edit_article():
     db.session.commit()
     return ResMsg(message='文章修改成功！').data
 
-@bp.route('/article/list/', methods=['POST'])
+@bp.route('/article/list', methods=['POST'])
 def get_articles():
     '''返回文章集合，分页'''
     data = request.get_json()
@@ -234,7 +234,7 @@ def remove_article():
     haowen = Haowen.query.get_or_404(id)
     db.session.delete(haowen)
     db.session.commit()
-    return {'code':200,'status':'success','message':'彻底删除成功'}
+    return jsonify({'code':200,'status':'success','message':'彻底删除成功'})
 
 @bp.route('/article/restored', methods=['POST'])
 # @token_auth.login_required

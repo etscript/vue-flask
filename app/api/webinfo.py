@@ -42,11 +42,11 @@ def set_webinfo():
     
     webinfo.create_from_dict(data)
     db.session.commit()
-    return {
+    return jsonify({
             'code': 200,
             'message': '网站信息修改成功！',
             'status': 'success'
-        }
+        })
 
 @bp.route('/webinfo/read', methods=['GET'])
 def get_webinfo():
@@ -59,10 +59,10 @@ def get_webinfo():
         "code": 200,
         "data":data}
     data = webinfo.to_dict()
-    return {
+    return jsonify({
       "status": "success",
       "code": 200,
-      "data": data}
+      "data": data})
 
 
 
