@@ -15,7 +15,7 @@ def add_to_index(index, obj):
         chinese_field_config = {
             "type": "text",
             "analyzer": "ik_max_word",
-            "search_analyzer": "ik_max_word"
+            "search_analyzer": "ik_smart"
         }
 
         properties = {}

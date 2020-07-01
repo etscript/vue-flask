@@ -1,7 +1,6 @@
 from wechatpy.session.redisstorage import RedisStorage
 from wechatpy import WeChatClient
 from app.utils.util import Redis
-from app.utils.util import wechatclient as client
 import datetime
 import random
 import json
@@ -9,7 +8,26 @@ from app.utils.auth import Auth, login_required
 from app.models.model import UserLoginMethod
 from app.utils.core import db
 import logging
+import redis
+from flask import current_app
 logger = logging.getLogger(__name__)
+
+class C_WeChatClient(object):
+    """
+    WeChatClient 初始化
+    """
+    @staticmethod
+    def _get_wechatclient():
+        app_id = current_app.config.get('app_id')
+        secret = current_app.config.get('secret') 
+        redirect_uri = current_app.config.get('redirect_uri')
+        redis_client = redis.Redis.from_url('redis://127.0.0.1:6379/0')
+        session_interface = RedisStorage(
+            redis_client,
+            prefix="wechatpy"
+        )
+        wechatclient = WeChatClient(app_id, secret, session=session_interface)
+        return wechatclient
 
 def wx_login_or_register(wx_user_info):
     """
@@ -79,6 +97,7 @@ def eventSubscribe(msg):
     
     logger.debug("用户初次订阅行为，flag为: ", msg.scene_id)
     # 查询用户详细信息
+    client = C_WeChatClient._get_wechatclient()
     user = client.user.get(msg.source)
     # 开始用户登陆或注册
     user_login = wx_login_or_register(user)
@@ -103,6 +122,7 @@ def eventscan(msg):
 
     logger.debug("已订阅用户扫描行为,flag为: ", msg.scene_id)
     # 查询用户详细信息
+    client = C_WeChatClient._get_wechatclient()
     user = client.user.get(msg.source)
     # 开始用户登陆或注册
     user_login = wx_login_or_register(user)

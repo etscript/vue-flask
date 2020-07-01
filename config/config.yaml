@@ -6,7 +6,7 @@ COMMON: &common #标识
   DEFAULT_PAGE_SIZE: 10
 
   # 数据库连接
-  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root:mysql@127.0.0.1:3306/wiz_wxapp?charset=utf8mb4'
+  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root:mysql@127.0.0.1:3306/projectdriven?charset=utf8mb4'
   # SQLALCHEMY_DATABASE_URI: 'sqlite:///app.db'
   SQLALCHEMY_TRACK_MODIFICATIONS: False
   # 日志配置文件路径
@@ -89,9 +89,14 @@ COMMON: &common #标识
   MESSAGES_PER_PAGE : 10
   TASKS_PER_PAGE : 10
   # Elasticsearch 全文检索
-  ELASTICSEARCH_URL : '127.0.0.1:9200'
-  ELASTICSEARCH_USER : None
-  ELASTICSEARCH_PASSWORD : None
+  ELASTICSEARCH_URL : '172.30.81.191:31142'
+  # ELASTICSEARCH_USER : '5a277a675d5509cfe2ddb96d16776b9e'
+  # ELASTICSEARCH_PASSWORD : 'http://www.projectdriven.xyz'
+
+  # 微信小程序相关 
+  app_id : 'wxaf1201be25bd5112'
+  secret : '5a277a675d5509cfe2ddb96d16776b9e'
+  redirect_uri : 'http://www.projectdriven.xyz'
 
 
 DEVELOPMENT: &development

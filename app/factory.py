@@ -65,7 +65,7 @@ def create_app(config_name, config_path=None):
         app.config.update(msg)
     
     # Elasticsearch全文检索
-    if app.config['ELASTICSEARCH_USER'] and app.config['ELASTICSEARCH_PASSWORD']:
+    if app.config.get('ELASTICSEARCH_USER') and app.config.get('ELASTICSEARCH_PASSWORD'):
         app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']], http_auth=app.config['ELASTICSEARCH_USER']+':'+app.config['ELASTICSEARCH_PASSWORD']) \
             if app.config['ELASTICSEARCH_URL'] else None
     else:

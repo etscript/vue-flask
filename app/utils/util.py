@@ -5,17 +5,6 @@ from wechatpy.session.redisstorage import RedisStorage
 from wechatpy import WeChatClient
 import datetime
 
-app_id = 'wxaf1201be25bd5112'
-secret = '5a277a675d5509cfe2ddb96d16776b9e'
-redirect_uri = 'http://www.projectdriven.xyz'
-
-redis_client = redis.Redis.from_url('redis://127.0.0.1:6379/0')
-session_interface = RedisStorage(
-    redis_client,
-    prefix="wechatpy"
-)
-wechatclient = WeChatClient(app_id, secret, session=session_interface)
-
 class Redis(object):
     """
     redis数据库操作

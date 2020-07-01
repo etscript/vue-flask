@@ -1,11 +1,13 @@
 import jwt
 from datetime import datetime, timedelta
-from flask import current_app, request, session
+from flask import current_app, request, session, g
 from functools import wraps
 from app.utils.code import ResponseCode
 from app.utils.util import ResMsg
-from flask_httpauth import HTTPBasicAuth, HTTPTokenAuth
+from flask_httpauth import HTTPTokenAuth
+from app.models.model import WXUser
 token_auth = HTTPTokenAuth()
+
 
 class Auth(object):
     key = 'super-man$&123das%qzq'
@@ -32,6 +34,22 @@ class Auth(object):
         }
         access_token = jwt.encode(access_payload, key, algorithm=algorithm)
         return access_token
+    
+    @staticmethod
+    def verify_jwt(token):
+        '''验证 JWT 的有效性'''
+        try:
+            payload = jwt.decode(
+                token,
+                current_app.config['SECRET_KEY'],
+                algorithms=['HS256'],
+                audience="flask")
+        except (jwt.exceptions.ExpiredSignatureError,
+                jwt.exceptions.InvalidSignatureError,
+                jwt.exceptions.DecodeError) as e:
+            # Token过期，或被人修改，那么签名验证也会失败
+            return None
+        return WXUser.query.get(payload.get('openid'))
 
     @classmethod
     def generate_refresh_token(cls, user_id, algorithm: str = 'HS256', fresh: float = 30):
@@ -149,7 +167,7 @@ def login_required(f):
 @token_auth.verify_token
 def verify_token(token):
     '''用于检查用户请求是否有token，并且token真实存在，还在有效期内'''
-    g.current_user = WXUser.verify_jwt(token) if token else None
+    g.current_user = Auth.verify_jwt(token) if token else None
     # if g.current_user:
     #     # 每次认证通过后（即将访问资源API），更新 last_seen 时间
     #     g.current_user.ping()

@@ -9,11 +9,11 @@ from app.utils.response import ResMsg
 from app.utils.util import Redis
 from app.utils.auth import Auth, login_required
 
-from wechatpy import WeChatClient, parse_message
+from wechatpy import parse_message
 from wechatpy.utils import check_signature
 from wechatpy.session.redisstorage import RedisStorage
 from app.utils.wechat_utils import create_flag, \
-                handleWxEvent, client, isFlagExist,\
+                handleWxEvent, C_WeChatClient, isFlagExist,\
                     make_qrcode, get_all_args
 from elasticsearch import Elasticsearch
 from app.api import bp
@@ -27,7 +27,8 @@ def get_qrcode():
     # 创建flag
     wechat_flag = create_flag()
     # 创建微信带参二维码
-    # 创建一天有效期的二维码, 参数使用字符串而不是数字id
+    # 创建一天有效期的二维码, 
+    client = C_WeChatClient._get_wechatclient()
     res_qrcode = make_qrcode(client, scene_str = wechat_flag)
     # 创建二维码地址
     url = client.qrcode.get_url(res_qrcode['ticket'])

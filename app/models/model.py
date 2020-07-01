@@ -120,6 +120,8 @@ class SearchableMixin(object):
     def receive_after_insert(cls, mapper, connection, target):
         '''监听 SQLAlchemy 'after_insert' 事件
         请参考: https://docs.sqlalchemy.org/en/13/orm/events.html#mapper-events'''
+        print("target.__tablename__")
+        print(target.__tablename__)
         add_to_index(target.__tablename__, target)
 
     @classmethod
@@ -248,7 +250,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
         self.houtai = houtai
 
     def __repr__(self):
-        return '<Post {}>'.format(self.title)
+        return '<Haowen {}>'.format(self.article_title)
 
     @staticmethod
     def on_changed_body(target, value, oldvalue, initiator):
@@ -427,7 +429,9 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
         if self.is_liked_by(user):
             self.likers.remove(user)
 
-
+db.event.listen(Haowen.article_filter_content, 'set', Haowen.on_changed_body)  # body 字段有变化时，执行 on_changed_body() 方法
+db.event.listen(Haowen, 'after_insert', Haowen.receive_after_insert)
+db.event.listen(Haowen, 'after_delete', Haowen.receive_after_delete)
 
 class WebInfo(db.Model):
     __tablename__ = 'webinfo'
