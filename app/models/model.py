@@ -262,7 +262,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
         #     target.summary = value[:200] + '  ... ...'  # 截取 body 字段的前200个字符给 summary
         pass
     
-    def to_dict(self, wxapp_list = True, wxapp = True, web_list = False, web = False):
+    def to_dict(self, wxapp_list = False, wxapp = False, web_list = True, web = False):
         if wxapp_list:
             data = {
                 "article_id" : str(self.id),

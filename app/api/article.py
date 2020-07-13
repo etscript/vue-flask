@@ -306,7 +306,7 @@ def search():
             'prev': url_for('api.search', q=q, page=page - 1, per_page=per_page) if page > 1 else None
         }
     }
-    return jsonify(data=data, message='Total items: {}, current page: {}'.format(total, page))
+    return jsonify(data=data, status='success', message='Total items: {}, current page: {}'.format(total, page))
 
 
 @bp.route('/search/post-detail/<int:id>', methods=['GET'])
