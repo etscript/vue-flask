@@ -96,7 +96,7 @@ COMMON: &common #标识
   # 微信小程序相关 
   app_id : 'wxaf1201be25bd5112'
   secret : '5a277a675d5509cfe2ddb96d16776b9e'
-  redirect_uri : 'http://www.projectdriven.xyz'
+  redirect_uri : 'http://project-driven.xyz'
 
 
 DEVELOPMENT: &development

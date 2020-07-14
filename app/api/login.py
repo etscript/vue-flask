@@ -37,7 +37,7 @@ def get_qrcode():
                 wechat_flag = wechat_flag)) 
     return res.data
 
-@bp.route('/wechat_verify',methods=['GET','POST'])
+@bp.route('/wechat_verify/',methods=['GET','POST'])
 def wechat_verify():
     '''
     用来处理微信服务器对本后台的验证，GET方法。
