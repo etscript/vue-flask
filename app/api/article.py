@@ -1,6 +1,6 @@
 from flask import request, jsonify, url_for, g, current_app
 from app.utils.core import db
-from app.models.model import Haowen
+from app.models.model import Haowen, Tag
 from app.utils.auth import Auth, login_required
 from app.utils.code import ResponseCode
 from app.utils.response import ResMsg
@@ -268,6 +268,25 @@ def untop_article():
     db.session.commit()
     return ResMsg(message='文章取消置顶成功！').data
 
+@bp.route('/article/tag/<name>', methods=['GET'])
+# @token_auth.login_required
+def get_articles_by_tag(name):
+    
+    # tag = Tag.query.filter_by(name=name).first()
+
+    page = request.args.get('page', 1, type=int)
+    per_page = min(
+        request.args.get(
+            'per_page', current_app.config['POSTS_PER_PAGE'], type=int), 100)
+    # Haowen.query.order_by(Haowen.timestamp.desc()).filter(Haowen.down==True)
+    haowen = Haowen.query.order_by(Haowen.top.desc(),Haowen.timestamp.desc())
+    
+    data = Haowen.to_web_dict(haowen.filter(Haowen.tags.name == name), \
+            page, per_page,'api.get_articles')
+
+    print(data)
+    # db.session.delete(haowen)
+    return ResMsg(message='文章取消置顶成功！').data
 
 
 ###

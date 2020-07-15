@@ -3,6 +3,11 @@ from app.utils.core import db
 from flask import url_for, current_app
 from app.utils.elasticsearch import add_to_index, remove_from_index, query_index, es_highlight
 
+haowen_tag = db.Table('haowen_tag',
+    db.Column('haowen_id',db.Integer,db.ForeignKey('haowen.id'),primary_key=True),
+    db.Column('tag_id',db.Integer,db.ForeignKey('tag.id'),primary_key=True) 
+        )
+
 class User(db.Model):
     """
     用户表
@@ -231,6 +236,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
     deleted_at = db.Column(db.DateTime, index=True)
     created_at = db.Column(db.DateTime, index=True)
     top = db.Column(db.Integer, default=0, index=True)
+    tags = db.relationship('Tag',secondary= haowen_tag, backref = db.backref('haowens'))
 
 
     # haowen list 添加字段
@@ -324,7 +330,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
                 "prevArticle": [],
                 "nextrAticle": [],
                 "view_count": 9,
-                "tags": ["postman"],
+                "tags": [tag.name for tag in self.tags],
                 "comment": 1,
                 "commentCount": 2,
                 "top" : self.top 
@@ -364,10 +370,22 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
         for field in ['article_comment', 'article_pic', 'article_format_date', \
             'article_referrals', 'article_mall', 'article_mall_id', 'article_title',\
             'article_price', 'article_favorite', 'article_collection', 'article_love_count',\
-            'article_avatar', 'tag_category', 'tag_category', 'user_smzdm_id', \
-            'article_channel_id', 'article_channel_name', 'article_recommend']:
+            'article_avatar', 'user_smzdm_id', 'article_channel_id', 'article_channel_name', \
+            'article_recommend']:
             if field in data:
                 setattr(self, field, data[field])
+        if data['tags'] != "":
+            tags = data['tags'].split(",")
+            for i in range(len(tags)):
+                tag = Tag.query.filter_by(name=tags[i]).first()
+                if not tag:
+                    tag = Tag(name=tags[i])
+                    db.session.add(tag)
+                    db.session.commit()
+                    tags[i] = tag
+                else:
+                    tags[i] = tag
+            self.tags = tags
         # self.article_id = "70249788"
         # self.timestamp = data['display_time']
         self.hot_comments = ""
@@ -478,5 +496,29 @@ class WebInfo(db.Model):
         for field in ['title', 'keyword', 'description', \
             'personinfo', 'github', 'icp', 'weixin',\
             'zhifubao', 'qq', 'phone']:
+            if field in data:
+                setattr(self, field, data[field])
+
+class Tag(db.Model):
+    __tablename__ = 'tag'
+    id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
+    name = db.Column(db.Text)
+    created_at = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+
+    def __repr__(self):
+        return '<Tag {}>'.format(self.title)
+    
+    def to_dict(self):
+        data = {
+            "id" : str(self.id),
+            "name" : self.name,
+            "created_at" : self.created_at,
+            "updated_at" : self.updated_at
+        }
+        return data
+
+    def create_from_dict(self, data):
+        for field in ['name']:
             if field in data:
                 setattr(self, field, data[field])
