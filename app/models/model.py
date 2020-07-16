@@ -236,7 +236,8 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
     deleted_at = db.Column(db.DateTime, index=True)
     created_at = db.Column(db.DateTime, index=True)
     top = db.Column(db.Integer, default=0, index=True)
-    tags = db.relationship('Tag',secondary= haowen_tag, backref = db.backref('haowens'))
+    tags = db.relationship('Tag',secondary= haowen_tag, backref = db.backref('haowens', lazy="dynamic"))
+    classify = db.Column(db.Text)
 
 
     # haowen list 添加字段
@@ -323,7 +324,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
                 "desc": None,
                 "img": self.article_pic,
                 "clicks": 0,
-                "classify": "工具",
+                "classify": self.classify,
                 "like": 0,
                 "deleted_at": self.deleted_at,
                 "created_at": self.timestamp or "2020-02-17 15:32:29",
@@ -386,7 +387,8 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
                 else:
                     tags[i] = tag
             self.tags = tags
-        # self.article_id = "70249788"
+        classify = data.get("classify")
+        self.classify = classify if classify else "笔记"
         # self.timestamp = data['display_time']
         self.hot_comments = ""
         # self.id = int(data['id'])
@@ -411,27 +413,6 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
         self.article_channel_name = "原创"
         self.article_recommend = "1"
         self.article_love_count = "0"
-
-    def houtai_update_from_dict(self, data):
-        for field in ['article_comment', 'article_pic', 'article_format_date', \
-            'article_referrals', 'article_mall', 'article_mall_id', 'article_title',\
-            'article_price', 'article_favorite', 'article_collection', 'article_love_count',\
-            'article_avatar', 'tag_category', 'tag_category', 'user_smzdm_id', \
-            'article_channel_id', 'article_channel_name', 'article_recommend']:
-            if field in data:
-                setattr(self, field, data[field])
-        # self.article_id = "70249788"
-        self.hot_comments = ""
-        #self.id = int(data['article_id'])
-        self.article_filter_content = data['article_filter_content'].replace('\n','')
-        self.content = data['content']
-        self.article_title = data['title']
-        self.content_short = data['content_short']
-        self.article_pic = data['image_uri']
-        self.down = data['down']
-        # self.timestamp = data['display_time']
-        
-
 
     def is_liked_by(self, user):
         '''判断用户 user 是否已经收藏过该文章'''
@@ -505,9 +486,10 @@ class Tag(db.Model):
     name = db.Column(db.Text)
     created_at = db.Column(db.DateTime, index=True, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+    
 
     def __repr__(self):
-        return '<Tag {}>'.format(self.title)
+        return '<Tag {}>'.format(self.name)
     
     def to_dict(self):
         data = {

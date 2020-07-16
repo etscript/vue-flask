@@ -201,14 +201,8 @@ def get_articles():
     
     ret = {
             "current_page": data["_meta"]["page"],
-            "first_page_url": "http://api.golang365.com/api/v2/article/list?page=1",
             "from": 1,
-            "last_page": data["_meta"]["total_pages"],
-            "last_page_url": "http://api.golang365.com/api/v2/article/list?page=9",
-            "next_page_url": "http://api.golang365.com/api/v2/article/list?page=2",
-            "path": "http://api.golang365.com/api/v2/article/list",
             "per_page": 6,
-            "prev_page_url": None,
             "to": 6,
             "total": data["_meta"]["total_items"]}
     ret["data"] = data["items"]
@@ -268,25 +262,42 @@ def untop_article():
     db.session.commit()
     return ResMsg(message='文章取消置顶成功！').data
 
-@bp.route('/article/tag/<name>', methods=['GET'])
+@bp.route('/article/tag', methods=['POST'])
 # @token_auth.login_required
-def get_articles_by_tag(name):
-    
-    # tag = Tag.query.filter_by(name=name).first()
-
-    page = request.args.get('page', 1, type=int)
+def get_articles_by_tag():
+    data = request.get_json()
+    # page = request.args.get('page', 1, type=int)
+    page = data['page']
+    name = data['tag']
     per_page = min(
         request.args.get(
             'per_page', current_app.config['POSTS_PER_PAGE'], type=int), 100)
-    # Haowen.query.order_by(Haowen.timestamp.desc()).filter(Haowen.down==True)
-    haowen = Haowen.query.order_by(Haowen.top.desc(),Haowen.timestamp.desc())
     
-    data = Haowen.to_web_dict(haowen.filter(Haowen.tags.name == name), \
-            page, per_page,'api.get_articles')
+    tag = Tag.query.filter_by(name = name).first()
+    # Haowen.query.order_by(Haowen.timestamp.desc()).filter(Haowen.down==True)
+    # haowen = Haowen.query.order_by(Haowen.top.desc(),Haowen.timestamp.desc())
+    
 
-    print(data)
-    # db.session.delete(haowen)
-    return ResMsg(message='文章取消置顶成功！').data
+    if tag:
+      data = Haowen.to_web_dict(tag.haowens, \
+              page, per_page,'api.get_articles_by_tag', name=name)
+      ret = {
+            "current_page": data["_meta"]["page"],
+            "from": 1,
+            "per_page": 6,
+            "to": 6,
+            "total": data["_meta"]["total_items"],
+            "data": data["items"]}
+    else:
+      ret = {
+            "current_page": 1,
+            "from": 1,
+            "per_page": 6,
+            "to": 6,
+            "total": 0,
+            "data": []}
+
+    return ResMsg(data=ret).data
 
 
 ###
