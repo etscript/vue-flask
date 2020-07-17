@@ -147,6 +147,9 @@ def get_article():
     id = data.get('id')
     if id:
         haowen = Haowen.query.get_or_404(id)
+        haowen.view_count += 1
+        db.session.add(haowen)
+        db.session.commit()
         data = haowen.to_dict(False, False, True, True)
     return ResMsg(data=data).data
 

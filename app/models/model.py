@@ -238,6 +238,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
     top = db.Column(db.Integer, default=0, index=True)
     tags = db.relationship('Tag',secondary= haowen_tag, backref = db.backref('haowens', lazy="dynamic"))
     classify = db.Column(db.Text)
+    view_count = db.Column(db.Integer, default=1000, index=True)
 
 
     # haowen list 添加字段
@@ -330,7 +331,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
                 "created_at": self.timestamp or "2020-02-17 15:32:29",
                 "prevArticle": [],
                 "nextrAticle": [],
-                "view_count": 9,
+                "view_count": self.view_count,
                 "tags": [tag.name for tag in self.tags],
                 "comment": 1,
                 "commentCount": 2,
