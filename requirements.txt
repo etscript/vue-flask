@@ -7,7 +7,7 @@ Flask-APScheduler==1.11.0
 Flask-SQLAlchemy==2.3.2
 greenlet==0.4.15
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 monotonic==1.5
 PyMySQL==0.9.3
