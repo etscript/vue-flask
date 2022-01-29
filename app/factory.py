@@ -9,7 +9,7 @@ from app.celery import celery_app
 
 from app.utils.core import JSONEncoder, db, scheduler
 from app.api import bp as api_bp
-from flask_migrate import Migrate, MigrateCommand
+from flask_migrate import Migrate
 from elasticsearch import Elasticsearch
 migrate = Migrate()
 
