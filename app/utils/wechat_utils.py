@@ -21,7 +21,10 @@ class C_WeChatClient(object):
         app_id = current_app.config.get('app_id')
         secret = current_app.config.get('secret') 
         redirect_uri = current_app.config.get('redirect_uri')
-        redis_client = redis.Redis.from_url('redis://127.0.0.1:6379/0')
+        redis_url = current_app.config.get('REDIS_HOST')
+        redis_port = current_app.config.get('REDIS_PORT')
+        redis_db = current_app.config.get('REDIS_DB')
+        redis_client = redis.Redis.from_url('redis://{}:{}/{}'.format(redis_url, redis_port, redis_db))
         session_interface = RedisStorage(
             redis_client,
             prefix="wechatpy"
