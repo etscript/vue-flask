@@ -239,6 +239,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
     tags = db.relationship('Tag',secondary= haowen_tag, backref = db.backref('haowens', lazy="dynamic"))
     classify = db.Column(db.Text)
     view_count = db.Column(db.Integer, default=1000, index=True)
+    like = db.Column(db.Integer, default=500)
 
 
     # haowen list 添加字段
@@ -293,7 +294,8 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
                 "article_channel_id" : self.article_channel_id,
                 "article_channel_name" : self.article_channel_name,
                 "article_recommend" : self.article_recommend,
-                "article_love_count" : self.article_love_count
+                "article_love_count" : self.article_love_count,
+                "like" : self.like
             }
         else:
             data = {}
@@ -335,7 +337,8 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
                 "tags": [tag.name for tag in self.tags],
                 "comment": 1,
                 "commentCount": 2,
-                "top" : self.top 
+                "top" : self.top,
+                "like" : self.like
             })
         if web:
             data.update({'content': self.content})
@@ -345,7 +348,7 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
             'article_referrals', 'article_mall', 'article_mall_id', 'article_title',\
             'article_price', 'article_favorite', 'article_collection', 'article_love_count',\
             'article_avatar', 'tag_category', 'tag_category', 'user_smzdm_id', \
-            'article_channel_id', 'article_channel_name', 'article_recommend']:
+            'article_channel_id', 'article_channel_name', 'article_recommend', 'like']:
             if field in data:
                 setattr(self, field, data[field])
         # self.article_id = "70249788"
