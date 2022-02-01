@@ -488,8 +488,7 @@ class Tag(db.Model):
     __tablename__ = 'tag'
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     name = db.Column(db.Text)
-    created_at = db.Column(db.DateTime, index=True, default=datetime.utcnow)
-    updated_at = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+    delete_tag = db.Column(db.Integer, default=0)
     
 
     def __repr__(self):
@@ -498,9 +497,7 @@ class Tag(db.Model):
     def to_dict(self):
         data = {
             "id" : str(self.id),
-            "name" : self.name,
-            "created_at" : self.created_at,
-            "updated_at" : self.updated_at
+            "name" : self.name
         }
         return data
 
