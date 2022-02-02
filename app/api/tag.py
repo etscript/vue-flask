@@ -18,16 +18,16 @@ def add_tag():
         data = 'You must post JSON data.'
         return ResMsg(code=code, data=data).data
 
-    haowen = Tag()
-    haowen.houtai_create_from_dict(data)
+    tag = Tag()
+    tag.create_from_dict(data)
     
-    db.session.add(haowen)
+    db.session.add(tag)
     db.session.commit()
-    return ResMsg(message='文章添加成功！').data
+    return ResMsg(message='tag添加成功！').data
 
 @bp.route('/tag/edit', methods=['POST'])
 def edit_tag():
-    '''修改一篇新文章'''
+    '''修改一个tag'''
     data = request.get_json()
     if not data:
         code = ResponseCode.InvalidParameter
@@ -35,11 +35,11 @@ def edit_tag():
         return ResMsg(code=code, data=data).data
 
     id = data["id"]
-    haowen = Haowen.query.get_or_404(id)
+    tag = Tag.query.get_or_404(id)
     
-    haowen.houtai_create_from_dict(data)
+    tag.name = data["name"]
     db.session.commit()
-    return ResMsg(message='文章修改成功！').data
+    return ResMsg(message='tag修改成功！').data
 
 @bp.route('/tag/list', methods=['POST'])
 def get_tags():
@@ -56,32 +56,37 @@ def get_tags():
 
 @bp.route('/tag/delete', methods=['POST'])
 # @token_auth.login_required
-def delete_tag():
-    '''下架一篇文章'''
+def delete_tags():
+    '''删除一个tag'''
     id = request.get_json()["id"]
-    haowen = Haowen.query.get_or_404(id)
+    tag = Tag.query.get_or_404(id)
     # db.session.delete(haowen)
-    haowen.make_down()
+    if tag.haowens:
+      code = ResponseCode.TagHasArticles
+      data = 'Tag 还有相关文章！'
+      return ResMsg(code=code, data=data).data
+    
+    tag.delete_tag = 1
     db.session.commit()
-    return ResMsg(message='文章下架成功！').data
+    return ResMsg(message='Tag删除成功！').data
 
 @bp.route('/tag/nonindex', methods=['POST'])
 # @token_auth.login_required
 def unset_tag_on_index():
-    '''删除一篇文章'''
+    '''将Tag从首页移除'''
     id = request.get_json()["id"]
-    haowen = Haowen.query.get_or_404(id)
-    db.session.delete(haowen)
+    tag = Tag.query.get_or_404(id)
+    tag.onindex = 1
     db.session.commit()
-    return jsonify({'code':200,'status':'success','message':'彻底删除成功'})
+    return ResMsg(message='Tag从首页中移除成功！').data
 
 @bp.route('/tag/onindex', methods=['POST'])
 # @token_auth.login_required
 def set_tag_on_index():
-    '''恢复一篇文章'''
+    '''将Tag放置首页中'''
     id = request.get_json()["id"]
-    haowen = Haowen.query.get_or_404(id)
-    haowen.make_restored()
+    tag = Tag.query.get_or_404(id)
+    tag.onindex = 0
     db.session.commit()
-    return ResMsg(message='文章恢复成功！').data
+    return ResMsg(message='Tag放置首页中成功！').data
 

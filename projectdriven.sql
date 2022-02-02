@@ -1,17 +1,17 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : local
+ Source Server         : localhost
  Source Server Type    : MySQL
- Source Server Version : 80026
+ Source Server Version : 80018
  Source Host           : 127.0.0.1:3306
  Source Schema         : projectdriven
 
  Target Server Type    : MySQL
- Target Server Version : 80026
+ Target Server Version : 80018
  File Encoding         : 65001
 
- Date: 01/02/2022 20:17:17
+ Date: 02/02/2022 10:24:39
 */
 
 SET NAMES utf8mb4;
@@ -38,11 +38,11 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `article`;
 CREATE TABLE `article` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `body` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `last_change_time` datetime NOT NULL,
-  `author_id` int DEFAULT NULL,
+  `author_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_article_author_id_user` (`author_id`),
   CONSTRAINT `fk_article_author_id_user` FOREIGN KEY (`author_id`) REFERENCES `user` (`id`)
@@ -59,9 +59,9 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `change_logs`;
 CREATE TABLE `change_logs` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `author_id` int DEFAULT NULL,
-  `article_id` int DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `author_id` int(11) DEFAULT NULL,
+  `article_id` int(11) DEFAULT NULL,
   `modify_content` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `create_time` datetime NOT NULL,
   PRIMARY KEY (`id`),
@@ -82,7 +82,7 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `haowen`;
 CREATE TABLE `haowen` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `article_title` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `article_format_date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `article_pic` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
@@ -98,12 +98,12 @@ CREATE TABLE `haowen` (
   `user_smzdm_id` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `timestamp` datetime DEFAULT NULL,
   `content_short` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `down` int DEFAULT NULL,
+  `down` int(11) DEFAULT NULL,
   `deleted_at` datetime DEFAULT NULL,
   `created_at` datetime DEFAULT NULL,
-  `top` int DEFAULT NULL,
+  `top` int(11) DEFAULT NULL,
   `classify` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `view_count` int DEFAULT NULL,
+  `view_count` int(11) DEFAULT NULL,
   `article_channel_id` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `article_channel_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `article_recommend` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
@@ -112,7 +112,7 @@ CREATE TABLE `haowen` (
   `article_price` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `article_filter_content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `like` int DEFAULT '500',
+  `like` int(11) DEFAULT '500',
   PRIMARY KEY (`id`),
   KEY `ix_haowen_created_at` (`created_at`),
   KEY `ix_haowen_deleted_at` (`deleted_at`),
@@ -134,8 +134,8 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `haowen_tag`;
 CREATE TABLE `haowen_tag` (
-  `haowen_id` int NOT NULL,
-  `tag_id` int NOT NULL,
+  `haowen_id` int(11) NOT NULL,
+  `tag_id` int(11) NOT NULL,
   PRIMARY KEY (`haowen_id`,`tag_id`),
   KEY `fk_haowen_tag_tag_id_tag` (`tag_id`),
   CONSTRAINT `fk_haowen_tag_haowen_id_haowen` FOREIGN KEY (`haowen_id`) REFERENCES `haowen` (`id`),
@@ -154,11 +154,12 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `tag`;
 CREATE TABLE `tag` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `created_time` datetime DEFAULT CURRENT_TIMESTAMP,
   `updated_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `delete_tag` int DEFAULT '0',
+  `delete_tag` int(11) DEFAULT '0',
+  `onindex` int(1) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `ix_tag_created_at` (`created_time`),
   KEY `ix_tag_updated_at` (`updated_time`)
@@ -168,7 +169,7 @@ CREATE TABLE `tag` (
 -- Records of tag
 -- ----------------------------
 BEGIN;
-INSERT INTO `tag` VALUES (1, '博客开头', '2022-01-30 11:57:16', '2022-01-30 11:57:16', 0);
+INSERT INTO `tag` VALUES (1, '博客开头', '2022-01-30 11:57:16', '2022-01-30 11:57:16', 0, 0);
 COMMIT;
 
 -- ----------------------------
@@ -176,12 +177,12 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '',
   `age` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '',
   `create_time` datetime DEFAULT CURRENT_TIMESTAMP,
   `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `delete_tag` int DEFAULT '0',
+  `delete_tag` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -196,7 +197,7 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `user_login_method`;
 CREATE TABLE `user_login_method` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `login_method` varchar(36) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `identification` varchar(36) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `access_code` varchar(36) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
@@ -217,7 +218,7 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `webinfo`;
 CREATE TABLE `webinfo` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `keyword` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
@@ -250,7 +251,7 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `wxuser`;
 CREATE TABLE `wxuser` (
-  `id` int DEFAULT NULL,
+  `id` int(11) DEFAULT NULL,
   `nickname` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `openid` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `gender` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
@@ -259,7 +260,7 @@ CREATE TABLE `wxuser` (
   `city` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `create_time` datetime DEFAULT CURRENT_TIMESTAMP,
   `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `delete_tag` int DEFAULT '0',
+  `delete_tag` int(11) DEFAULT '0',
   PRIMARY KEY (`openid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 

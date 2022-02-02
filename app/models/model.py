@@ -489,6 +489,7 @@ class Tag(db.Model):
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     name = db.Column(db.Text)
     delete_tag = db.Column(db.Integer, default=0)
+    onindex = db.Column(db.Integer, default=0)
     
 
     def __repr__(self):
