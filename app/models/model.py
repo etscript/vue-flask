@@ -486,6 +486,7 @@ class Tag(db.Model):
     name = db.Column(db.Text)
     delete_tag = db.Column(db.Integer, default=0)
     onindex = db.Column(db.Integer, default=0)
+    url = db.Column(db.String(30), nullable=False, server_default="")
     
 
     def __repr__(self):
@@ -494,11 +495,13 @@ class Tag(db.Model):
     def to_dict(self):
         data = {
             "id" : str(self.id),
-            "name" : self.name
+            "name" : self.name,
+            "url" : self.url,
+            "onindex": self.onindex
         }
         return data
 
     def create_from_dict(self, data):
-        for field in ['name']:
+        for field in ['name', 'url', 'onindex']:
             if field in data:
                 setattr(self, field, data[field])

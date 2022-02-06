@@ -11,7 +11,7 @@
  Target Server Version : 80018
  File Encoding         : 65001
 
- Date: 02/02/2022 10:24:39
+ Date: 06/02/2022 23:08:43
 */
 
 SET NAMES utf8mb4;
@@ -126,7 +126,7 @@ CREATE TABLE `haowen` (
 -- Records of haowen
 -- ----------------------------
 BEGIN;
-INSERT INTO `haowen` VALUES (4, '写在年少时', '19-05-24', '20220130160628982872.png', '1', '0', '真真假假', 'http://avatarimg.smzdm.com/default/6432321680/57d425cd156f2-small.jpg', '1', '#其他文化娱乐 ', '#宅家生活手册 #购物攻略 #影视 ', '', '', '6432321680', '2022-01-30 08:06:16', '\nProject Driven 博客系统的雏形大致完成了。\n\n我给博客取这个名字的主要原因是，项目的', 0, NULL, NULL, 1, '开头', 1037, '11', '原创', '1', '0', '', '', '<p>Project Driven 博客系统的雏形大致完成了。</p><p>我给博客取这个名字的主要原因是，项目的需要逐渐成为我工作以后学习新技术的主要原因，我也相信有非常多的人和我有类似感受。并且这种学习往往深度不够，当达到了项目要求，这次的学习基本就告一段落了。</p><p>所以我打算博客就以项目的形式来记录和梳理涉及到的技术，说不定时不时加一点学一点，深度上面就有所突破了。不过我也还没想好，不同项目之间的技术交集该怎么去整理归纳，边写边想着吧。。。</p><p>另外，尽可能完整的源码共享，我会同步到我的 GitHub 仓库（<a href=\"https://github.com/etscript\" target=\"_blank\">示例</a>）：</p><p>项目索引：</p><ol><li><p><a href=\"http://project-driven.xyz/hello-projectone\" target=\"_blank\">Kubernetes 不大不小（项目No.1）</a><br />* 快速搭建</p><ul><li><a href=\"http://project-driven.xyz/hello-Kubernetes\" target=\"_blank\">Kubernetes 快速安装部署</a></li><li><a href=\"http://project-driven.xyz/hello-nfs\" target=\"_blank\">NFS共享存储快速搭建</a></li><li><a href=\"http://project-driven.xyz/hello-EFK\" target=\"_blank\">Kubernetes EFK日志收集方案</a></li><li><a href=\"http://project-driven.xyz/hello-prometheus\" target=\"_blank\">Kubernetes Prometheus 监控方案快速部署</a></li></ul></li></ol><pre><code>* 来了解个大概	* [Kubernetes 基础概念](http://project-driven.xyz/kubernetes-conception)	* [Kubernetes 核心原理 --- Pod](http://project-driven.xyz/kubernetes-pod)	* Kubernetes 网络	* Kubernetes 存储	* Kubernetes 资源配额</code></pre><blockquote><p>看到文章的最好进<a href=\"http://project-driven.xyz/hello-projectone\" target=\"_blank\">博客</a>看文章哦，体验应该是最好的</p></blockquote><p>最后，博客采用了solo框架，大家也可以用下这个框架哦，顺便可以去 <a href=\"https://github.com/b3log/solo\" target=\"_blank\">solo github</a> 给颗❤️鼓励一下</p>', '\nProject Driven 博客系统的雏形大致完成了。\n\n我给博客取这个名字的主要原因是，项目的需要逐渐成为我工作以后学习新技术的主要原因，我也相信有非常多的人和我有类似感受。并且这种学习往往深度不够，当达到了项目要求，这次的学习基本就告一段落了。\n\n所以我打算博客就以项目的形式来记录和梳理涉及到的技术，说不定时不时加一点学一点，深度上面就有所突破了。不过我也还没想好，不同项目之间的技术交集该怎么去整理归纳，边写边想着吧。。。\n\n另外，尽可能完整的源码共享，我会同步到我的 GitHub 仓库（[示例](https://github.com/etscript)）：\n\n项目索引：\n\n1.   [Kubernetes 不大不小（项目No.1）](http://project-driven.xyz/hello-projectone)\n	* 快速搭建\n\n		* [Kubernetes 快速安装部署](http://project-driven.xyz/hello-Kubernetes)\n		* [NFS共享存储快速搭建](http://project-driven.xyz/hello-nfs)\n		* [Kubernetes EFK日志收集方案](http://project-driven.xyz/hello-EFK)\n		* [Kubernetes Prometheus 监控方案快速部署](http://project-driven.xyz/hello-prometheus)\n	* 来了解个大概\n		* [Kubernetes 基础概念](http://project-driven.xyz/kubernetes-conception)\n		* [Kubernetes 核心原理 --- Pod](http://project-driven.xyz/kubernetes-pod)\n		* Kubernetes 网络\n		* Kubernetes 存储\n		* Kubernetes 资源配额\n\n> 看到文章的最好进[博客](http://project-driven.xyz/hello-projectone)看文章哦，体验应该是最好的\n\n最后，博客采用了solo框架，大家也可以用下这个框架哦，顺便可以去 [solo github](https://github.com/b3log/solo) 给颗:heart:鼓励一下', 502);
+INSERT INTO `haowen` VALUES (4, '写在年少时', '19-05-24', '20220130160628982872.png', '1', '0', '真真假假', 'http://avatarimg.smzdm.com/default/6432321680/57d425cd156f2-small.jpg', '1', '#其他文化娱乐 ', '#宅家生活手册 #购物攻略 #影视 ', '', '', '6432321680', '2022-01-30 08:06:16', '\nProject Driven 博客系统的雏形大致完成了。\n\n我给博客取这个名字的主要原因是，项目的', 0, NULL, NULL, 1, '开头', 1053, '11', '原创', '1', '0', '', '', '<p>Project Driven 博客系统的雏形大致完成了。</p><p>我给博客取这个名字的主要原因是，项目的需要逐渐成为我工作以后学习新技术的主要原因，我也相信有非常多的人和我有类似感受。并且这种学习往往深度不够，当达到了项目要求，这次的学习基本就告一段落了。</p><p>所以我打算博客就以项目的形式来记录和梳理涉及到的技术，说不定时不时加一点学一点，深度上面就有所突破了。不过我也还没想好，不同项目之间的技术交集该怎么去整理归纳，边写边想着吧。。。</p><p>另外，尽可能完整的源码共享，我会同步到我的 GitHub 仓库（<a href=\"https://github.com/etscript\" target=\"_blank\">示例</a>）：</p><p>项目索引：</p><ol><li><p><a href=\"http://project-driven.xyz/hello-projectone\" target=\"_blank\">Kubernetes 不大不小（项目No.1）</a><br />* 快速搭建</p><ul><li><a href=\"http://project-driven.xyz/hello-Kubernetes\" target=\"_blank\">Kubernetes 快速安装部署</a></li><li><a href=\"http://project-driven.xyz/hello-nfs\" target=\"_blank\">NFS共享存储快速搭建</a></li><li><a href=\"http://project-driven.xyz/hello-EFK\" target=\"_blank\">Kubernetes EFK日志收集方案</a></li><li><a href=\"http://project-driven.xyz/hello-prometheus\" target=\"_blank\">Kubernetes Prometheus 监控方案快速部署</a></li></ul></li></ol><pre><code>* 来了解个大概	* [Kubernetes 基础概念](http://project-driven.xyz/kubernetes-conception)	* [Kubernetes 核心原理 --- Pod](http://project-driven.xyz/kubernetes-pod)	* Kubernetes 网络	* Kubernetes 存储	* Kubernetes 资源配额</code></pre><blockquote><p>看到文章的最好进<a href=\"http://project-driven.xyz/hello-projectone\" target=\"_blank\">博客</a>看文章哦，体验应该是最好的</p></blockquote><p>最后，博客采用了solo框架，大家也可以用下这个框架哦，顺便可以去 <a href=\"https://github.com/b3log/solo\" target=\"_blank\">solo github</a> 给颗❤️鼓励一下</p>', '\nProject Driven 博客系统的雏形大致完成了。\n\n我给博客取这个名字的主要原因是，项目的需要逐渐成为我工作以后学习新技术的主要原因，我也相信有非常多的人和我有类似感受。并且这种学习往往深度不够，当达到了项目要求，这次的学习基本就告一段落了。\n\n所以我打算博客就以项目的形式来记录和梳理涉及到的技术，说不定时不时加一点学一点，深度上面就有所突破了。不过我也还没想好，不同项目之间的技术交集该怎么去整理归纳，边写边想着吧。。。\n\n另外，尽可能完整的源码共享，我会同步到我的 GitHub 仓库（[示例](https://github.com/etscript)）：\n\n项目索引：\n\n1.   [Kubernetes 不大不小（项目No.1）](http://project-driven.xyz/hello-projectone)\n	* 快速搭建\n\n		* [Kubernetes 快速安装部署](http://project-driven.xyz/hello-Kubernetes)\n		* [NFS共享存储快速搭建](http://project-driven.xyz/hello-nfs)\n		* [Kubernetes EFK日志收集方案](http://project-driven.xyz/hello-EFK)\n		* [Kubernetes Prometheus 监控方案快速部署](http://project-driven.xyz/hello-prometheus)\n	* 来了解个大概\n		* [Kubernetes 基础概念](http://project-driven.xyz/kubernetes-conception)\n		* [Kubernetes 核心原理 --- Pod](http://project-driven.xyz/kubernetes-pod)\n		* Kubernetes 网络\n		* Kubernetes 存储\n		* Kubernetes 资源配额\n\n> 看到文章的最好进[博客](http://project-driven.xyz/hello-projectone)看文章哦，体验应该是最好的\n\n最后，博客采用了solo框架，大家也可以用下这个框架哦，顺便可以去 [solo github](https://github.com/b3log/solo) 给颗:heart:鼓励一下', 502);
 COMMIT;
 
 -- ----------------------------
@@ -159,17 +159,23 @@ CREATE TABLE `tag` (
   `created_time` datetime DEFAULT CURRENT_TIMESTAMP,
   `updated_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `delete_tag` int(11) DEFAULT '0',
-  `onindex` int(1) DEFAULT '0',
+  `onindex` int(11) DEFAULT '0',
+  `url` varchar(30) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `icon` varchar(30) COLLATE utf8mb4_general_ci DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `ix_tag_created_at` (`created_time`),
   KEY `ix_tag_updated_at` (`updated_time`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of tag
 -- ----------------------------
 BEGIN;
-INSERT INTO `tag` VALUES (1, '博客开头', '2022-01-30 11:57:16', '2022-01-30 11:57:16', 0, 0);
+INSERT INTO `tag` VALUES (1, '博客开头和总结', '2022-01-30 11:57:16', '2022-02-06 22:47:06', 0, 0, '/博客开头和总结', NULL);
+INSERT INTO `tag` VALUES (2, '测试tag1', '2022-02-06 20:37:10', '2022-02-06 20:45:51', 1, 0, NULL, NULL);
+INSERT INTO `tag` VALUES (3, '博客开发', '2022-02-06 21:01:37', '2022-02-06 22:47:06', 0, 1, '/blog-dev', NULL);
+INSERT INTO `tag` VALUES (4, 'Flask', '2022-02-06 21:19:28', '2022-02-06 22:47:08', 0, 1, '/flask', NULL);
+INSERT INTO `tag` VALUES (5, 'Vue', '2022-02-06 21:19:36', '2022-02-06 22:47:08', 0, 1, '/vue', NULL);
 COMMIT;
 
 -- ----------------------------
@@ -204,13 +210,17 @@ CREATE TABLE `user_login_method` (
   `nickname` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT '',
   `sex` varchar(1) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '0',
   `admin` varchar(1) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '0',
+  `create_time` datetime DEFAULT CURRENT_TIMESTAMP,
+  `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `delete_tag` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of user_login_method
 -- ----------------------------
 BEGIN;
+INSERT INTO `user_login_method` VALUES (1, 'WX', '123456789', NULL, 'admin', '1', '1', '2022-02-02 14:53:56', '2022-02-02 14:53:56', 0);
 COMMIT;
 
 -- ----------------------------
@@ -243,7 +253,7 @@ CREATE TABLE `webinfo` (
 -- Records of webinfo
 -- ----------------------------
 BEGIN;
-INSERT INTO `webinfo` VALUES (1, 'Star Here Project Driven博客', '技术博客', NULL, NULL, 'htts://github.com/etscript', '粤ICP备19044398号', 'JhHaBjBbrDzDgN22VYXkJTmPnhsJB0mOVrS1eNWa.jpeg', 'GruK3LNCt6MdZQ1CZ8MJZqv27wDN7sMNadtzKS7X.jpeg', '407833710', NULL, NULL, '2022-01-28 03:56:03', '2022-01-28 03:56:03', '2022-01-28 03:56:03');
+INSERT INTO `webinfo` VALUES (1, 'Project Driven', '项目日记 技术博客', '项目日记 技术博客', NULL, 'htts://github.com/etscript', '暂无', 'JhHaBjBbrDzDgN22VYXkJTmPnhsJB0mOVrS1eNWa.jpeg', 'GruK3LNCt6MdZQ1CZ8MJZqv27wDN7sMNadtzKS7X.jpeg', '407833710', NULL, NULL, '2022-01-28 03:56:03', '2022-01-28 03:56:03', '2022-01-28 03:56:03');
 COMMIT;
 
 -- ----------------------------
