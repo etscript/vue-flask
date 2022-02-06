@@ -322,7 +322,8 @@ def search():
     '''Elasticsearch全文检索博客文章'''
     q = request.args.get('q')
     if not q:
-        return bad_request(message='keyword is required.')
+        return jsonify(data='', status='success', message='Total items: {}, current page: {}'.format(0, 1))
+
 
     page = request.args.get('page', 1, type=int)
     per_page = min(

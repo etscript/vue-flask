@@ -334,7 +334,8 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
                 "prevArticle": [],
                 "nextrAticle": [],
                 "view_count": self.view_count,
-                "tags": [tag.name for tag in self.tags],
+                "tags": [{"id":tag.id, "name":tag.name} for tag in self.tags],
+                "tags_name": [tag.name for tag in self.tags],
                 "comment": 1,
                 "commentCount": 2,
                 "top" : self.top,
@@ -347,11 +348,10 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
         for field in ['article_comment', 'article_pic', 'article_format_date', \
             'article_referrals', 'article_mall', 'article_mall_id', 'article_title',\
             'article_price', 'article_favorite', 'article_collection', 'article_love_count',\
-            'article_avatar', 'tag_category', 'tag_category', 'user_smzdm_id', \
+            'article_avatar', 'tag_category', 'user_smzdm_id', \
             'article_channel_id', 'article_channel_name', 'article_recommend', 'like']:
             if field in data:
                 setattr(self, field, data[field])
-        # self.article_id = "70249788"
         self.hot_comments = ""
         self.id = int(data['article_id'])
         self.article_filter_content = data['article_filter_content']
@@ -379,18 +379,14 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
             'article_recommend']:
             if field in data:
                 setattr(self, field, data[field])
-        if data['tags'] != "":
-            tags = data['tags'].split(",")
-            for i in range(len(tags)):
-                tag = Tag.query.filter_by(name=tags[i]).first()
-                if not tag:
-                    tag = Tag(name=tags[i])
-                    db.session.add(tag)
-                    db.session.commit()
-                    tags[i] = tag
-                else:
-                    tags[i] = tag
+        if data['selectedtags']:
+            tags = data['selectedtags']
+            for i, tag in enumerate(tags):
+                tag = Tag.query.get(tag["id"])
+                tags[i] = tag
             self.tags = tags
+        else:
+            self.tags = []
         classify = data.get("classify")
         self.classify = classify if classify else "笔记"
         # self.timestamp = data['display_time']
