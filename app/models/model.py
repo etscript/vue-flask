@@ -31,6 +31,8 @@ class UserLoginMethod(db.Model):
     nickname    = db.Column(db.String(128), nullable=True, server_default="")
     sex         = db.Column(db.String(1), nullable=False, server_default="0")
     admin       = db.Column(db.String(1), nullable=False, server_default="0")
+    create_time = db.Column(db.DateTime, nullable=False)  # 创建日期
+    update_time = db.Column(db.DateTime, nullable=False)  # 创建日期
 
     def to_dict(self):
         return {
@@ -40,7 +42,9 @@ class UserLoginMethod(db.Model):
             'access_code': self.access_code,
             'nickname': self.nickname,
             'sex': self.sex,
-            'admin': self.admin
+            'admin': self.admin,
+            'create_time': self.create_time,
+            'update_time': self.update_time
         }
 
 class Article(db.Model):
