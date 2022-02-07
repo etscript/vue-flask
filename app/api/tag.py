@@ -1,4 +1,3 @@
-from turtle import onclick
 from flask import request, jsonify, url_for, g, current_app
 from app.utils.core import db
 from app.models.model import Haowen, Tag
@@ -6,9 +5,6 @@ from app.utils.auth import Auth, login_required
 from app.utils.code import ResponseCode
 from app.utils.response import ResMsg
 from app.api import bp
-import logging
-import json
-import os
 
 @bp.route('/tag/add', methods=['POST'])
 def add_tag():

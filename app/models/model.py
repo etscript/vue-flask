@@ -393,7 +393,8 @@ class Haowen(SearchableMixin, PaginatedAPIMixin, db.Model):
         self.hot_comments = ""
         # self.id = int(data['id'])
         self.content = data['content']
-        self.content_short = data.get('content')[:50] or None
+        self.content_short = data.get('content')[:70] + "......" \
+                                if data.get('content') and len(data.get('content')) >= 70 else None
         self.article_comment = "0"
         self.article_pic = data.get('img') or data.get('url') or "http://qna.smzdm.com/201905/24/5ce74d7a6f0419915.jpg_c640.jpg"
         self.article_format_date = "19-05-24"
