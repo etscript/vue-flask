@@ -9,11 +9,11 @@ import logging
 
 def init_webinfo():
     data = {
-      "title": "Star Here Project Driven博客",
+      "title": "Project Driven",
       "keyword": "技术博客",
       "description": None,
       "personinfo": None,
-      "github": "htts://github.com/etscript",
+      "github": "https://github.com/etscript",
       "icp": "粤ICP备19044398号",
       "weixin": "JhHaBjBbrDzDgN22VYXkJTmPnhsJB0mOVrS1eNWa.jpeg",
       "zhifubao": "GruK3LNCt6MdZQ1CZ8MJZqv27wDN7sMNadtzKS7X.jpeg",
